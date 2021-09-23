@@ -15,6 +15,24 @@ fig-caption: # Add figcaption (optional, jsp a quoi ça sert)
 tags: [tag1, tag2]
 ---
 
+
+---
+layout: post
+type: article
+support: journal
+link: https://journals.aps.org/prresearch/pdf/10.1103/PhysRevResearch.2.023332
+title: Influential spreaders for recurrent epidemics on networks
+authors: G. Poux-Médard, Romualdo Pastor-Satorras, Claudio Castellano
+journal: PHYSICAL REVIEW RESEARCH 2, 023332
+year: 2020
+doi: 10546541365468/546345453
+date: 2019-12-18 13:32:20 +0300
+description:  # Add post description (optional)
+img: 1_illustration_physrevres.png # Add image post (optional)
+fig-caption: # Add figcaption (optional, jsp a quoi ça sert)
+tags: [epidemics, network, cascade, stitistical physics]
+---
+
 Contenu format markdown.
 Voir https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 

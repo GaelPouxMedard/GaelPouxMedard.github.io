@@ -1178,7 +1178,7 @@ footer .copyright {
 }
 
 .post .post-content .post-title {
-  margin: 0 0 10px;
+  margin: 0 0 -1px;
   font-size: 30px;
   font-weight: 400;
 }
@@ -1187,6 +1187,12 @@ footer .copyright {
   font-family: 'PT Serif', serif;
   text-decoration: none;
   color: #263959;
+}
+
+.post-article-ref {
+  color: grey;
+  font-size: 13px;
+  margin: 0 0 10px;
 }
 
 .post .post-content p {
