@@ -1482,6 +1482,17 @@ a.newer-posts:hover {
 
 
 /* Sidebar */
+.quote-container {
+   /* Optional - You can set a  min-height : whatever px; for reserving some space*/
+   height: 150px; /* Fix a height here */
+   overflow: auto; /* Optionally you can also use overflow: scroll; */
+}
+.sidebar-container {
+   /* Optional - You can set a  min-height : whatever px; for reserving some space*/
+   height: 100%; /* Fix a height here */
+   overflow: auto; /* Optionally you can also use overflow: scroll; */
+}
+
 <style>
 #sidebar {
     z-index: 999;

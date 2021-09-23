@@ -13,13 +13,34 @@ layout: main
         {% endif %}
       </figure>
     </div> <!-- End Page Cover Image -->
+    {% else %}
     {% endif %}
     <div class="wrap-content">
       <header class="header-page">
         <h1 class="page-title">{{page.title}}</h1>
         <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
       </header>
-      <p>{{content | markdownify}}</p>
+
+
+      {{content | markdownify}}
+      <h2>Conferences</h2>
+      {% for post in site.posts %}
+        {% if post.type == 'article' %}
+          {% if post.support == 'conference' %}
+      <p><a href="{{post.link}}">{{post.title}}</a> - {{post.authors}}, <i>{{post.journal}}</i>, {{post.year}}. <i>DOI: {{post.doi}}</i></p>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
+      <h2>Journals</h2>
+      {% for post in site.posts %}
+        {% if post.type == 'article' %}
+          {% if post.support == 'journal' %}
+            <p>{{post.title}} - {{post.myvar}}<br></p>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
       <div class="page-footer">
         <div class="page-share">
           <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
@@ -32,9 +53,6 @@ layout: main
           {% endfor %}
         </div>
       </div>
-    </div>
+    </div> <!-- End Wrap Content -->
   </div> <!-- End Page Content -->
-  <!-- End Wrap Content {% include disq us.html %} -->
 </article> <!-- End Article Page -->
-
-
