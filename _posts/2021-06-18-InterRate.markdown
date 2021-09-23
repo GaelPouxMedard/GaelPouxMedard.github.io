@@ -2,19 +2,20 @@
 layout: post
 type: article
 support: conference
-link: http://blabla.com
-title: Interaction bla
+link: https://arxiv.org/pdf/2104.13695
+title: Information Interaction Profile of Choice Adoption
 authors: G. Poux-Médard, J. Velcin, S. Loudcher
-journal: ECML-PKDD
+journal: ECML-PKDD'21
 year: 2021
-doi: 10546541365468/546345453
-date: 2017-09-12 13:32:20 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: articles/covers/1_illustration_physrevres.png # Add image post (optional)
-fig-caption: # Add figcaption (optional, jsp a quoi ça sert)
-tags: [Holidays, Hawaii]
+doi: 10.1007/978-3-030-86523-8_7
+date: 2021-06-18
+description:  # Add post description (optional)
+img: articles/covers/3_InterRate.jpg # Add image post (optional)
+fig-caption: Pieces of information one is exposed to interact together. Their combination influence a user in a different way than the sum of their
+ parts. The time-distance separating two interacting pieces of information plays a role in the interaction strength. In this figure, 
+ you see how strong the interaction is, that is how much it will affect a person's choice, with respect to time.
+tags: [Information, interaction, Convex modeling, Dynamics, Human decision]
 ---
-
 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque suscipit posuere lorem id feugiat. Nulla facilisi. Phasellus cursus luctus scelerisque. Pellentesque ut nisi imperdiet, semper mi sed, mollis eros. Maecenas tincidunt eget arcu a tempus. Cras mattis tincidunt egestas. Integer vestibulum euismod sapien, at condimentum libero mattis vel.

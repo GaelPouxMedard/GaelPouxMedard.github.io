@@ -1,0 +1,30 @@
+---
+layout: post
+type: article
+support: conference
+link: https://dl.acm.org/doi/10.1145/3460231.3474254
+title: Information Interactions in Outcome Prediction, Quantification and Interpretation using Stochastic Block Models
+authors: G. Poux-Médard, J. Velcin, S. Loudcher
+journal: RecSys'21
+year: 2021
+doi: 10.1145/3460231.3474254
+date: 2021-07-06
+description: # Add post description (optional)
+img: articles/covers/4_IMMSBM.jpg
+fig-caption: Pieces of information interact with each other, on Twitter, Reddit, Spotify, etc. 
+ When a user of these platforms has to make a choice, s/he will be influenced by this interaction.
+ On this picture, you see which groups of information interact strongly with each other. The darker the color, the more
+ an exposed user's decision is likely to change due to information interaction.
+tags: [Interaction, Information, Stochastic block model, Decision making process, Human behavior, Choice mechanisms]
+---
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque suscipit posuere lorem id feugiat. Nulla facilisi. Phasellus cursus luctus scelerisque. Pellentesque ut nisi imperdiet, semper mi sed, mollis eros. Maecenas tincidunt eget arcu a tempus. Cras mattis tincidunt egestas. Integer vestibulum euismod sapien, at condimentum libero mattis vel.
+
+Vivamus eleifend sit amet odio eget efficitur. Nunc molestie massa in condimentum sagittis. Nam et consequat lacus, non dapibus justo. Praesent urna velit, posuere hendrerit est in, dignissim sodales felis. Phasellus ut ligula erat. In vitae lorem eget velit iaculis eleifend. Aliquam a tortor ac nisl vestibulum rhoncus eu sit amet mi. Nunc eu sem convallis, pellentesque erat vestibulum, luctus felis. Nullam ipsum justo, laoreet a mi nec, suscipit molestie urna.
+
+Donec at ornare enim. Nullam facilisis, ipsum id pretium fringilla, dui augue pharetra libero, eu malesuada sem lacus ut tortor. Nam non rhoncus purus. Nulla facilisi. Vestibulum accumsan quis nulla sit amet accumsan. Nulla arcu justo, posuere et nibh et, mattis mollis lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas tristique est quis magna venenatis, et laoreet odio tincidunt. Nulla facilisi.
+
+Phasellus nec tincidunt nisl. Etiam rhoncus turpis nec sapien bibendum finibus. Nunc venenatis neque eleifend, imperdiet libero ut, malesuada nisi. Curabitur maximus euismod condimentum. Vivamus tristique, mauris at malesuada commodo, diam purus ultrices lectus, in pulvinar nisl metus nec turpis. Aenean nec ornare mi, et cursus nisi. In porttitor maximus arcu in faucibus. Nullam tempus ullamcorper lacinia. Nunc ante diam, commodo vitae dictum sit amet, laoreet quis tellus. Suspendisse pretium metus in rhoncus suscipit. Mauris vulputate dui at placerat sagittis. Integer a interdum nunc, nec eleifend dolor. Aliquam erat volutpat. Vestibulum lobortis sed lectus ac finibus. Fusce a interdum nulla, rhoncus placerat ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+
+Nullam eu lacus non purus dapibus porta nec id diam. Quisque lacinia velit in tellus ultricies posuere. Curabitur urna elit, tempus sed ultricies eu, mattis euismod dui. Suspendisse cursus vestibulum nisl. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris sit amet tristique est. In eget tempor arcu. Sed blandit ut orci a luctus. Suspendisse convallis urna tortor. Duis sed gravida augue. Integer volutpat lorem quis lobortis porta.

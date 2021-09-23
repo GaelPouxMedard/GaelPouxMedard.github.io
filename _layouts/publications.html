@@ -27,7 +27,7 @@ layout: main
       {% for post in site.posts %}
         {% if post.type == 'article' %}
           {% if post.support == 'conference' %}
-            <p><a href="{{post.link}}">{{post.title}}</a> - {{post.authors}}, <i>{{post.journal}}</i>, {{post.year}}. <i>DOI: {{post.doi}}</i>
+            <p><a href="{{post.link}}">{{post.title}}</a><br>{{post.authors}}, <i>{{post.journal}}</i>, {{post.year}}<br><i>DOI: {{post.doi}}</i>
             </p>
           {% endif %}
         {% endif %}
@@ -37,7 +37,8 @@ layout: main
       {% for post in site.posts %}
         {% if post.type == 'article' %}
           {% if post.support == 'journal' %}
-            <p>{{post.title}} - {{post.myvar}}<br></p>
+            <p><a href="{{post.link}}">{{post.title}}</a><br>{{post.authors}}, <i>{{post.journal}}</i>, {{post.year}}<br><i>DOI: {{post.doi}}</i>
+            </p>
           {% endif %}
         {% endif %}
       {% endfor %}
