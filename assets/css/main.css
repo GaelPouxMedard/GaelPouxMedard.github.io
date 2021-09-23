@@ -1485,7 +1485,7 @@ a.newer-posts:hover {
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
   .content-box {
     padding: 10px;
   }
