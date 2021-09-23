@@ -10,9 +10,7 @@ layout: default
       </div>
       <div class="author-name">{{site.author}}</div>
       <p>
-        <!--{{site.about-author}}-->
-      <div style="font-family:'Brush Script MT', cursive; font-size:25px;">Random quote of the day</div>
-        <div class="quote-container"><script>TheySaidSo.render({ qod_category : 'inspire'})</script></div>
+        <div class="author-subtitle">PhD student in applied mathematics and computer science<br></div>
       </p>
     </div>
   </header> <!-- End Header -->
@@ -24,6 +22,18 @@ layout: default
           <li>
               <a href="/page_biography"><span class="icon"><i class="fas fa-info-circle"></i></span>Biography</a>
           </li>
+          <li>
+              <a href="/page_publications"><span class="icon"><i class="fas fa-book"></i></span>Publications</a>
+          </li>
+          <li>
+              <a href="/page_communication"><span class="icon"><i class="fas fa-microphone"></i></span>Communication</a>
+          </li>
+          <li>
+              <a href="/page_teaching"><span class="icon"><i class="fas fa-university"></i></span>Teaching</a>
+          </li>
+          <li>
+              <a href="/page_ressources"><span class="icon"><i class="fas fa-folder"></i></span>Resources</a>
+          </li>
           <!--
           <li>
               <a href="#subMenuPub"  data-toggle="collapse" aria-expanded="false" class="dropdown-toggle collapsed"><span class="icon"><i class="fas fa-info-circle"></i></span>Publications</a>
@@ -34,48 +44,38 @@ layout: default
               </ul>
           </li>
           -->
-          <li>
-              <a href="/page_publications"><span class="icon"><i class="fas fa-info-circle"></i></span>Publications</a>
-          </li>
-          <li>
-              <a href="/page_contact"><span class="icon"><i class="fas fa-info-circle"></i></span>Contact</a>
-          </li>
-          <li>
-              <a href="/page_ressources"><span class="icon"><i class="fas fa-info-circle"></i></span>Resources</a>
-          </li>
-          <li>
-              <a href="/page_teaching"><span class="icon"><i class="fas fa-info-circle"></i></span>Teaching</a>
-          </li>
-          <li>
-              <a href="/page_communication"><span class="icon"><i class="fas fa-info-circle"></i></span>Communication</a>
-          </li>
       </ul>
   </nav>
+
+    <div style="font-family: 'Brush Script MT', cursive; font-size: 25px; color: #000000;">Today's random quote</div>
+    <div class="quote-container">
+        <script>TheySaidSo.render({ qod_category : 'inspire'})</script>
+    </div>
 
   <footer>
     <section class="contact">
       <h3 class="contact-title">Contact me</h3>
       <ul>
         {% if site.social-researchgate %}
-          <li><a href="https://www.researchgate.net/profile/{{ site.social-researchgate }}" target="_blank"><i class="fab fa-researchgate" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.researchgate.net/profile/{{ site.social-researchgate }}" target="_blank"><i class="fab fa-researchgate icon-contact" aria-hidden="true"></i></a></li>
         {% endif %}
         {% if site.social-scholar %}
-          <li><a href="https://scholar.google.com/citations?hl=en&user={{ site.social-scholar }}" target="_blank"><i class="fab fa-google" aria-hidden="true"></i></a></li>
+          <li><a href="https://scholar.google.com/citations?hl=en&user={{ site.social-scholar }}" target="_blank"><i class="fab fa-google icon-contact" aria-hidden="true"></i></a></li>
         {% endif %}
         {% if site.social-twitter %}
-          <li><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fab fa-twitter icon-contact" aria-hidden="true"></i></a></li>
         {% endif %}
         {% if site.social-facebook %}
-          <li><a href="https://facebook.com/{{ site.social-facebook }}" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="https://facebook.com/{{ site.social-facebook }}" target="_blank"><i class="fab fa-facebook icon-contact" aria-hidden="true"></i></a></li>
         {% endif %}
         {% if site.social-github %}
-          <li class="github"><a href="http://github.com/{{site.social-github}}" target="_blank"><i class="fab fa-github"></i></a></li>
+          <li class="github"><a href="http://github.com/{{site.social-github}}" target="_blank"><i class="fab fa-github icon-contact"></i></a></li>
         {% endif %}
         {% if site.social-linkedin %}
-          <li class="linkedin"><a href="https://in.linkedin.com/in/{{site.social-linkedin}}" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+          <li class="linkedin"><a href="https://in.linkedin.com/in/{{site.social-linkedin}}" target="_blank"><i class="fab fa-linkedin icon-contact"></i></a></li>
         {% endif %}
         {% if site.social-email %}
-          <li class="email"><a href="mailto:{{site.social-email}}"><i class="fas fa-envelope"></i></a></li>
+          <li class="email"><a href="mailto:{{site.social-email}}"><i class="far fa-envelope icon-contact"></i></a></li>
         {% endif %}
       </ul>
     </section> <!-- End Section Contact -->

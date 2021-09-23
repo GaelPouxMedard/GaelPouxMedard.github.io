@@ -1,0 +1,44 @@
+---
+layout: post
+type: article - communication
+support: conference - journal
+link: http://blabla.com
+title: Interaction bla
+authors: G. Poux-Médard, J. Velcin, S. Loudcher
+journal: ECML-PKDD
+year: 2021
+doi: 10546541365468/546345453
+date: 2017-09-12 13:32:20 +0300
+description:  # Add post description (optional)
+img: i-rest.jpg # Add image post (optional)
+fig-caption: # Add figcaption (optional, jsp a quoi ça sert)
+tags: [tag1, tag2]
+---
+
+Contenu format markdown.
+Voir https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+Titres :
+# Titre
+## Sous-titre
+### Sous-sous-titre
+
+Format :
+Emphasis, aka italics, with *asterisks* or _underscores_.
+Strong emphasis, aka bold, with **asterisks** or __underscores__.
+Combined emphasis with **asterisks and _underscores_**.
+Strikethrough uses two tildes. ~~Scratch this.~~
+
+Listes :
+1. First ordered list item
+2. Another item
+⋅⋅* Unordered sub-list.
+1. Actual numbers don't matter, just that it's a number
+⋅⋅1. Ordered sub-list
+4. And another item.
+
+Lien :
+[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+
+Images :
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")

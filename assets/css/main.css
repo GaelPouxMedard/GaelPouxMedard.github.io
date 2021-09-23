@@ -933,7 +933,9 @@ table tfoot td {
   width: 240px;
   height: 100%;
   padding: 20px 10px;
+  /* COULEUR */
   background-color: #ffffff;
+  /*background-color: #c22525;*/
 }
 
 .about {
@@ -975,7 +977,9 @@ table tfoot td {
   padding-bottom: 15px;
   font-size: 16px;
   text-transform: uppercase;
+  /* COULEUR */
   color: #333030;
+  /*color: #ffffff;*/
   font-weight: 700;
 }
 
@@ -992,7 +996,16 @@ table tfoot td {
   height: 7px;
   -webkit-border-radius: 100%;
           border-radius: 100%;
+  /* COULEUR */
   background-color: #515151;
+  /*background-color: #ffffff;*/
+}
+
+.author-subtitle {
+  font-size: 13px;
+  /* COULEUR */
+  color: grey;
+  /*color: #ffffff;*/
 }
 
 .about p {
@@ -1023,7 +1036,9 @@ table tfoot td {
 
 .contact .contact-title {
   position: relative;
+  /* COULEUR */
   color: #333030;
+  /*color: #ffffff;*/
   font-weight: 400;
   font-size: 12px;
   margin: 0 0 5px;
@@ -1043,7 +1058,9 @@ table tfoot td {
   position: absolute;
   top: 50%;
   left: 0;
+  /* COULEUR */
   background-color: #515151;
+  /*background-color: #ffffff;*/
 }
 
 .contact .contact-title::after {
@@ -1058,7 +1075,9 @@ table tfoot td {
   position: absolute;
   top: 50%;
   right: 0;
+  /* COULEUR */
   background-color: #515151;
+  /*background-color: #ffffff;*/
 }
 
 .contact ul {
@@ -1098,6 +1117,9 @@ footer .copyright {
   font-size: 14px;
   text-align: center;
   margin: 0;
+  /* COULEUR */
+  color: #000000;
+  /*color: #ffffff;*/
 }
 
 .post {
@@ -1480,17 +1502,25 @@ a.newer-posts:hover {
   }
 }
 
-
 /* Sidebar */
 .quote-container {
    /* Optional - You can set a  min-height : whatever px; for reserving some space*/
    height: 150px; /* Fix a height here */
    overflow: auto; /* Optionally you can also use overflow: scroll; */
+   font-size: 5px;
+   color: #000000;
 }
 .sidebar-container {
    /* Optional - You can set a  min-height : whatever px; for reserving some space*/
    height: 100%; /* Fix a height here */
    overflow: auto; /* Optionally you can also use overflow: scroll; */
+   color: #ffffff;
+}
+
+.icon-contact {
+   /* COULEUR */
+   color: #000000;
+   /*color: #ffffff;*/
 }
 
 <style>
@@ -1501,7 +1531,9 @@ a.newer-posts:hover {
     height: 100%;
     left: 0px;
     overflow-y: auto;
+    /* COULEUR */
     background: #455963;
+    /*background: #ffffff;*/
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -1525,7 +1557,9 @@ a.newer-posts:hover {
     padding: 15px 10px;
     font-size: 17px;
     display: block;
+    /* COULEUR */
     color: #000;
+    /*color: #fff;*/
     border-bottom: 1px solid #939fa5;
     text-decoration: none;
     transition: 0.4s;

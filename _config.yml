@@ -9,9 +9,9 @@ url: "https://github.XXX.com" # the base hostname & protocol for your site, e.g.
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
-author: David Freeman # add your name
-author-img: david-freeman.jpg # add your photo
-about-author: I am a web developer focusing on front-end development. Always hungry to keep learning. # add description
+author: Gaël Poux-Médard # add your name
+author-img: photo.jpg # add your photo
+about-author: PhD student in applied mathematics and computer science. # add description
 social-twitter: GaelPoux # add your Twitter handle
 #social-facebook: # add your Facebook handle
 social-github: GaelPouxMedard # add your Github handle
