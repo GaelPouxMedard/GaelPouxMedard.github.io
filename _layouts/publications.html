@@ -25,9 +25,12 @@ layout: main
       {{content | markdownify}}
       <h2>Conferences</h2>
       {% for post in site.posts %}
+      <p>Bla</p>
         {% if post.type == 'article' %}
           {% if post.support == 'conference' %}
-      <p><a href="{{post.link}}">{{post.title}}</a> - {{post.authors}}, <i>{{post.journal}}</i>, {{post.year}}. <i>DOI: {{post.doi}}</i></p>
+            <p>
+              <a href="{{post.link}}">{{post.title}}</a> - {{post.authors}}, <i>{{post.journal}}</i>, {{post.year}}. <i>DOI: {{post.doi}}</i>
+            </p>
           {% endif %}
         {% endif %}
       {% endfor %}
