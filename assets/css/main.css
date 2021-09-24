@@ -1528,7 +1528,7 @@ a.newer-posts:hover {
    color: #ffffff;
 }
 
-@media only screen and (max-height: 1026px) {
+@media only screen and (max-height: 100px) {
     #quote-container {
         display: none;
     }
