@@ -1528,6 +1528,12 @@ a.newer-posts:hover {
    color: #ffffff;
 }
 
+@media only screen and (max-height: 1026px) {
+    #quote-container {
+        display: none;
+    }
+}
+
 .icon-contact {
    /* COULEUR */
    color: #000000;
