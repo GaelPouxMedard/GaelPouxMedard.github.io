@@ -1529,7 +1529,7 @@ a.newer-posts:hover {
 }
 
 @media only screen and (max-height: 10000px) {
-    #quote-container {
+    .quote-container {
         display: none;
     }
 }
