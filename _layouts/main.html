@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <aside class="sidebar">
 <div class="sidebar-container">
   <header>
@@ -9,13 +10,11 @@ layout: default
         <a href="/"><img src="/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
       </div>
       <div class="author-name">{{site.author}}</div>
-      <p>
-        <div class="author-subtitle">PhD student in applied mathematics and computer science</div>
-      </p>
+      <div class="author-subtitle">PhD student in applied mathematics and computer science</div>
     </div>
   </header> <!-- End Header -->
   <nav id="sidebar">
-      <ul class="list-unstyled">
+      <ul class="list-unstyled" style="margin-top: -18px;">
           <li>
               <a href="/"><span class="icon"><i class="fas fa-home"></i></span>Home</a>
           </li>
@@ -48,10 +47,11 @@ layout: default
   </nav>
 
 
-    <div style="font-family: 'Brush Script MT', cursive; font-size: 25px; color: #000000;">Today's random quote</div>
+    <div class="quote-container" style="font-family: 'Brush Script MT', cursive; font-size: 25px; color: #000000;">Today's random quote</div>
     <div class="quote-container">
         <script>TheySaidSo.render({ qod_category : 'inspire'})</script>
     </div>
+
 
   <footer>
     <section class="contact">
