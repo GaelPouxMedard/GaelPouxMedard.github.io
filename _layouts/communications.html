@@ -21,26 +21,11 @@ layout: main
         <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
       </header>
 
-
       {{content | markdownify}}
       <h2>Conferences</h2>
       {% for post in site.posts %}
-        {% if post.type == 'article' %}
-          {% if post.support == 'conference' %}
-            <p>
-              <a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a><br>{{post.authors}}, <i>{{post.journal}}</i>, {{post.year}}<br><a href="{{post.link}}"><i>DOI: {{post.doi}}</i></a>
-            </p>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-
-      <h2>Journals</h2>
-      {% for post in site.posts %}
-        {% if post.type == 'article' %}
-          {% if post.support == 'journal' %}
-            <p><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a><br>{{post.authors}}, <i>{{post.journal}}</i>, {{post.year}}<br><a href="{{post.link}}"><i>DOI: {{post.doi}}</i></a>
-            </p>
-          {% endif %}
+        {% if post.type == 'communication' %}
+          <a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a><br><i>{{post.journal}}</i>, {{post.year}}<br><br>
         {% endif %}
       {% endfor %}
 
