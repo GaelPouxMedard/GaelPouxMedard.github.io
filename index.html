@@ -2,7 +2,7 @@
 layout: main
 ---
 
-<input type="text" id="input-filter-index" onkeyup="filterIndex()" placeholder="Search for a news...">
+<input type="text" id="filter-index" onkeyup="filterIndex()" placeholder="Search by keywords...">
 <div id="myIndex">
 {% for post in paginator.posts %}
 <article class="post">

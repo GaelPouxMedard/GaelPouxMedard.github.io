@@ -1191,7 +1191,7 @@ footer .copyright {
 
 .post-article-ref {
   color: grey;
-  font-size: 13px;
+  font-size: 17px;
   margin: 0 0 10px;
 }
 
@@ -1672,7 +1672,7 @@ a.dropdown-toggle.collapsed.dropdown-toggle::after {
 }
 
 
-#input-filter-index {
+#filter-index {
   background-image: url("/assets/img/search-solid.svg"); /* Add a search icon to input */
   background-position: 10px 12px; /* Position the search icon */
   background-repeat: no-repeat; /* Do not repeat the icon image */
