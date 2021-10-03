@@ -1,9 +1,9 @@
 ---
 layout: publications
-title: Test liste posts
-date: 2020-09-12 13:32:20 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: i-rest.jpg # Add image post (optional)
+title: Personal side projects
+date: 2021-10-03
+description: Mes side projects
+img: Sideworks-pic.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
-tags: [Holidays, Hawaii]
+tags: [Epimap, Blindtest channel]
 ---

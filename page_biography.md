@@ -5,7 +5,7 @@ date: 2021-10-03
 description: Biography
 img: a.jpg # Add image post (optional)--
 fig-caption: # Add figcaption (optional)
-tags: Gael, Poux, Medard
+tags: [Gael, Poux, Medard]
 ---
 
 Gaël Poux-Médard (Paris, 1996) obtained a literary baccalaureate in 2014 in Strasbourg (France), 
