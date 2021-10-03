@@ -4,7 +4,7 @@ type: article
 support: conference
 link: https://dl.acm.org/doi/10.1145/3460231.3474254
 title: Information Interactions in Outcome Prediction, Quantification and Interpretation using Stochastic Block Models
-authors: G. Poux-Médard, J. Velcin, S. Loudcher
+authors: <b>G. Poux-Médard</b>, J. Velcin, S. Loudcher
 journal: RecSys'21
 year: 2021
 doi: 10.1145/3460231.3474254

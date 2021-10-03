@@ -4,7 +4,7 @@ type: article
 support: journal
 link: https://journals.aps.org/prresearch/pdf/10.1103/PhysRevResearch.2.023332
 title: Influential spreaders for recurrent epidemics on networks
-authors: G. Poux-Médard, Romualdo Pastor-Satorras, Claudio Castellano
+authors: <b>G. Poux-Médard</b>, Romualdo Pastor-Satorras, Claudio Castellano
 journal: Physical review Research 2, 023332
 year: 2020
 doi: 10.1103/PhysRevResearch.2.023332
