@@ -3,7 +3,7 @@ layout: post
 title: Biography
 date: 2021-10-03
 description: Biography
-img: a.jpg # Add image post (optional)--
+img: Biography-pic.jpg # Add image post (optional)--
 fig-caption: # Add figcaption (optional)
 tags: [Gael, Poux, Medard]
 ---
@@ -42,13 +42,8 @@ the enormous amount of data they possess yet did not extensively explore.
 
 ## Languages
 -	French (mother tongue)
--	English (C2 level, C1 certified by the Cambridge Advanced English diploma)
+-	English (C2 level)
 -	Italian (B1 level)
-
-## Other diplomas
--	**2018** : Cambridge Advanced English (CAE) C1 level
--	**2015** : Informatics and internet certificate (C2i),
--	**2014** : Cambridge Language Certificate (CLC) B1 level
 
 ## Internships
 -	**2019**: Internship at La Sapienza – Istituto dei Sistemi Complessi (Roma) entitled “Study of the problem of optimal spreaders for the SIS model for epidemics”, supervised by C. CASTELLANO
