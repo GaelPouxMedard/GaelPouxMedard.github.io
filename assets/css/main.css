@@ -1522,6 +1522,13 @@ a.newer-posts:hover {
    font-size: 5px;
    color: #000000;
 }
+.quote-title-container {
+   /* Optional - You can set a  min-height : whatever px; for reserving some space*/
+   /* height: 150px; /* Fix a height here */
+   overflow: auto; /* Optionally you can also use overflow: scroll; */
+   font-size: 5px;
+   color: #000000;
+}
 .sidebar-container {
    /* Optional - You can set a  min-height : whatever px; for reserving some space*/
    height: 100%; /* Fix a height here */
@@ -1532,21 +1539,38 @@ a.newer-posts:hover {
 .sidebar-container footer {
     bottom: 0px;
     position: absolute;
-    padding: 0 5%;"
+    padding: 0 5%;
+    width: 100%;
 }
 
 
-@media only screen and (max-height: 992px) {
+@media only screen and (max-height: 768px) {
     .quote-container {
+        display: none;
+    }
+    .quote-title-container {
         display: none;
     }
 }
 
-@media only screen and (max-height: 730px) {
+@media only screen and (max-width: 768px) {
+    .contact {
+        vertical-align: middle;
+        width: 100%;
+        padding: 0 5%;"
+        color: red;
+    }
+}
+
+@media only screen and (max-height: 768px) {
     .sidebar-container footer {
         bottom: 0px;
-        position: relative;
-        padding: 5%;"
+        vertical-align: middle;
+        padding: 5%;
+        background: white;
+    }
+    .list-unstyled {
+        margin-bottom: 100px;
     }
 }
 
@@ -1632,4 +1656,41 @@ a.dropdown-toggle.collapsed.dropdown-toggle::after {
 @media only screen and (max-width: 768px) {
   #sidebar ul li a { text-align: center; }
 }
+
+
+
+/* Filter */
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myUL {
+  /* Remove default list styling */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd; /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6; /* Grey background color */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: black; /* Add a black text color */
+  display: block; /* Make it into a block element to fill the whole list */
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+
 </style>

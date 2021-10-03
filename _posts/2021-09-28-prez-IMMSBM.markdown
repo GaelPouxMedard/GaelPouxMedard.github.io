@@ -2,7 +2,7 @@
 layout: post
 type: communication
 support: powerpoint
-title: Talk - Information interaction in outcome prediction
+title: Information interaction in outcome prediction
 authors: G. Poux-Médard
 journal: RecSys'21
 year: 2021

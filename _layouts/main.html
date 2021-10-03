@@ -14,7 +14,7 @@ layout: default
     </div>
   </header> <!-- End Header -->
   <nav id="sidebar">
-      <ul class="list-unstyled" style="margin-top: -18px;">
+      <ul class="list-unstyled" style="margin-top: -18px">
           <li>
               <a href="/"><span class="icon"><i class="fas fa-home"></i></span>Home</a>
           </li>
@@ -28,10 +28,15 @@ layout: default
               <a href="/page_communication"><span class="icon"><i class="fas fa-microphone"></i></span>Communication</a>
           </li>
           <li>
-              <a href="/page_teaching"><span class="icon"><i class="fas fa-university"></i></span>Teaching</a>
+              <a href="/page_side_projects"><span class="icon"><i class="fas fa-flask"></i></span>Side projects</a>
           </li>
           <li>
-              <a href="/page_ressources"><span class="icon"><i class="fas fa-folder"></i></span>Resources</a>
+              <a href="#subMenuPub"  data-toggle="collapse" aria-expanded="false" class="dropdown-toggle collapsed"><span class="icon"><i class="fas fa-folder"></i></span>Other</a>
+              <ul class="collapse list-unstyled" id="subMenuPub"  style="margin-bottom: 10px">
+                  <li><a href="/page_teaching"><span class="icon"><i class="fas fa-university"></i></span>Teaching</a></li>
+                  <li><a href="/page_ressources"><span class="icon"><i class="fas fa-folder"></i></span>Resources</a></li>
+                  <li><a href="/page_news"><span class="icon"><i class="fas fa-newspaper"></i></span>All news</a></li>
+              </ul>
           </li>
           <!--
           <li>
@@ -47,7 +52,7 @@ layout: default
   </nav>
 
 
-    <div class="quote-container" style="font-family: 'Brush Script MT', cursive; font-size: 25px; color: #000000;">Today's random quote</div>
+    <div class="quote-title-container" style="font-family: 'Brush Script MT', cursive; font-size: 25px; color: #000000;">Today's random quote</div>
     <div class="quote-container">
         <script>TheySaidSo.render({ qod_category : 'inspire'})</script>
     </div>
@@ -55,7 +60,7 @@ layout: default
 
   <footer>
     <section class="contact">
-      <h3 class="contact-title">Contact me</h3>
+        <h3 class="contact-title">Contact me</h3>
       <ul>
         {% if site.social-researchgate %}
           <li><a href="https://www.researchgate.net/profile/{{ site.social-researchgate }}" target="_blank"><i class="fab fa-researchgate icon-contact" aria-hidden="true"></i></a></li>

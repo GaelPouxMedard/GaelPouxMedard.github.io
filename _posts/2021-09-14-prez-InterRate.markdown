@@ -2,7 +2,7 @@
 layout: post
 type: communication
 support: powerpoint
-title: Talk - Information Interaction Profile of Choice Adoption
+title: Information Interaction Profile of Choice Adoption
 authors: G. Poux-Médard
 journal: ECML-PKDD'21
 year: 2021
