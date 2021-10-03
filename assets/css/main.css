@@ -1544,6 +1544,7 @@ a.newer-posts:hover {
 }
 
 
+
 @media only screen and (max-height: 768px) {
     .quote-container {
         display: none;
@@ -1557,8 +1558,7 @@ a.newer-posts:hover {
     .contact {
         vertical-align: middle;
         width: 100%;
-        padding: 0 5%;"
-        color: red;
+        padding: 0 5%;
     }
 }
 
@@ -1568,6 +1568,7 @@ a.newer-posts:hover {
         vertical-align: middle;
         padding: 5%;
         background: white;
+        width: 95%;
     }
     .list-unstyled {
         margin-bottom: 100px;
@@ -1657,13 +1658,12 @@ a.dropdown-toggle.collapsed.dropdown-toggle::after {
   #sidebar ul li a { text-align: center; }
 }
 
-
-
 /* Filter */
-#myInput {
-  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+#input-filter-all-news {
+  background-image: url("/assets/img/search-solid.svg"); /* Add a search icon to input */
   background-position: 10px 12px; /* Position the search icon */
   background-repeat: no-repeat; /* Do not repeat the icon image */
+  background-size: 23px; /* Do not repeat the icon image */
   width: 100%; /* Full-width */
   font-size: 16px; /* Increase font-size */
   padding: 12px 20px 12px 40px; /* Add some padding */
@@ -1671,14 +1671,27 @@ a.dropdown-toggle.collapsed.dropdown-toggle::after {
   margin-bottom: 12px; /* Add some space below the input */
 }
 
-#myUL {
+
+#input-filter-index {
+  background-image: url("/assets/img/search-solid.svg"); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  background-size: 23px; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+#ul-filter {
   /* Remove default list styling */
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-#myUL li a {
+#ul-filter li a {
   border: 1px solid #ddd; /* Add a border to all links */
   margin-top: -1px; /* Prevent double borders */
   background-color: #f6f6f6; /* Grey background color */

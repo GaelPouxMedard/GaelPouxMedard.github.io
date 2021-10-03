@@ -3,7 +3,7 @@ layout: main
 ---
 
 <article class="article-page">
-  <div class="page-content">
+  <img class="page-content">
     {% if page.img %}
     <div class="page-cover-image">
       <figure>
@@ -15,7 +15,7 @@ layout: main
     </div> <!-- End Page Cover Image -->
     {% else %}
     {% endif %}
-    <div class="wrap-content">
+    <img class="wrap-content">
       <header class="header-page">
         <h1 class="page-title">{{page.title}}</h1>
         <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
@@ -23,10 +23,14 @@ layout: main
 
 
       {{content | markdownify}}
-      <input type="text" id="myInput" onkeyup="filter()" placeholder="Search for a news...">
-      <ul id="myUL">
+      <input type="text" id="input-filter-all-news" onkeyup="filter()" placeholder="Search for a news...">
+      <ul id="ul-filter">
         {% for post in site.posts %}
-          <li><a href="{{post.url | prepend: site.baseurl}}"><div style="text-transform: capitalize;">{{ post.type }} - {{post.title}}, {{post.journal}}, {{post.year}}</div></a></li>
+          <li  class="post-list-filter">
+            <a href="{{post.url | prepend: site.baseurl}}">
+              <span style="text-transform: capitalize; overflow: hidden;">-  {{ post.type }} - {{post.title}}, {{post.journal}}, {{post.year}}</span>
+            </a>
+          </li>
         {% endfor %}
       </ul>
 

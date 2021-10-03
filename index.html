@@ -2,6 +2,8 @@
 layout: main
 ---
 
+<input type="text" id="input-filter-index" onkeyup="filterIndex()" placeholder="Search for a news...">
+<div id="myIndex">
 {% for post in paginator.posts %}
 <article class="post">
   {% if post.img %}
@@ -16,6 +18,7 @@ layout: main
   </div>
 </article>
 {% endfor %}
+</div>
 
 
 {% include pagination.html %}
