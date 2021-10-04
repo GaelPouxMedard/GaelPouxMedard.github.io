@@ -25,10 +25,16 @@ layout: main
       {{content | markdownify}}
 
       {% for post in site.posts %}
-        {% if post.type == 'side' %}
-          <p>
-            <a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a><br>{{post.authors}}, <i>{{post.journal}}</i>, {{post.year}}<br><a href="{{post.link}}"><i>DOI: {{post.doi}}</i></a>
-          </p>
+        {% if post.type == 'sidework' %}
+          <article class="post" style="min-height: 6rem; height: 6rem;">
+            {% if post.img %}
+              <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+            {% endif %}
+            <div class="post-content">
+              <h2 class="post-title" style="font-size: 20px;"><a href="{{post.url | prepend: site.baseurl}}"><span style="text-transform: capitalize;">{{post.type}}</span> - {{post.title}}</a></h2>
+              <p class="post-article-ref" style="font-size: 15px;">{{post.date | date: '%b %Y'}}</p>
+              </div>
+          </article>
         {% endif %}
       {% endfor %}
 

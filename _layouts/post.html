@@ -20,8 +20,11 @@ layout: main
         <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
       </header>
       <p>{{content | markdownify}}</p>
+      {% if page.journal %}
       <h5>Link to the paper and reference:</h5>
       <p><a href="{{page.link}}">{{page.title}}</a><br>{{page.authors}}, <i>{{page.journal}}</i>, {{page.year}}<br><i>DOI: {{page.doi}}</i></p>
+      {% endif %}
+
       <div class="page-footer">
         <div class="page-share">
           <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>

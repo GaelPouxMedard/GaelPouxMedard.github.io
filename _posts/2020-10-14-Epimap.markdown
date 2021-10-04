@@ -1,0 +1,33 @@
+---
+layout: post
+type: sidework
+support: website
+link: https://gpouxmed.pythonanywhere.com/
+title: Epimap - Visualize more than 100.000 latin inscriptions in space and time (1000BC to 1000AC)
+authors: <b>G. Poux-Médard</b>
+journal: 
+year: 2020
+doi: 
+date: 2020-10-14
+description: # Add post description (optional)
+img: articles/covers/7_Epimap.jpg
+fig-caption: Choose a time range and a textual filter, and visualize how latin engraving appeared, spread, disappeared through the
+ ages, using a wide range of analysis tools (density maps, 2D histograms, entropy, average distance, clusters, ...). 
+ You can also download the raw data in a .csv format.
+tags: [Clustering, Temporal Bayesian Prior, Powered Dirichlet Process, Hawkes Process, PDP, Dirichlet]
+---
+
+Try it yourself <a href="https://gpouxmed.pythonanywhere.com/">HERE</a>!
+
+Choose a time range and a textual filter, and visualize how latin engraving appeared, spread, disappeared through the
+ages, using a wide range of analysis tools (density maps, 2D histograms, entropy, average distance, clusters, ...). 
+You can also download the raw data in a .csv format.
+
+Here are some possible visualizations.
+
+#### <center><u>Pinpoint on a map</u></center>
+![alt text](/assets/img/articles/Epimap/Map1.jpg)
+#### <center><u>Explore various visualizations</u></center>
+![alt text](/assets/img/articles/Epimap/Map2.jpg)
+#### <center><u>Metrics provided</u></center>
+![alt text](/assets/img/articles/Epimap/Metrics.jpg)
