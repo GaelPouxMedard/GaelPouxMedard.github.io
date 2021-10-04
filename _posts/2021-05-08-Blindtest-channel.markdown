@@ -5,9 +5,7 @@ support: website
 link: http://youtube.com/channel/UChF9wA8QVXa0-qn9nMek5ig/
 title: Blindtest channel - Automated guess-the-song videos generation and upload on Youtube
 authors: <b>G. Poux-Médard</b>
-journal: 
 year: 2021
-doi: 
 date: 2021-05-08
 description: # Add post description (optional)
 img: articles/covers/8_Blindtestchannel.png
