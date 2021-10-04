@@ -24,9 +24,18 @@ layout: main
 
       {{content | markdownify}}
 
-
+      <h2>Lectures</h2>
       {% for post in site.posts %}
         {% if post.type == 'lecture' %}
+          <p>
+            {{post.year}} - <a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a>
+          </p>
+        {% endif %}
+      {% endfor %}
+
+      <h2>Tutorials</h2>
+      {% for post in site.posts %}
+        {% if post.type == 'tutorial' %}
           <p>
             {{post.year}} - <a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a>
           </p>

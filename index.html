@@ -47,7 +47,7 @@ layout: main
         <a href="{{paginator.previous_page_path}}"><i class="fas fa-chevron-circle-left fa-3x" style="color: black;"></i></a>
       </div>
     {% endif %}
-    {% if paginator.page > 1 && paginator.page < paginator.total_pages %}
+    {% if (paginator.page > 1) && (paginator.page < paginator.total_pages) %}
       <div style="margin-right: 60px;"></div>
     {% endif %}
     {% if paginator.page < paginator.total_pages %}
