@@ -5,9 +5,7 @@ layout: main
 <input type="text" id="filter-input" onkeyup="filterIndex()" placeholder="Search by keywords...">
 <div id="searched-index">
   {% for post in site.posts %}
-    {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
-    {% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
-    {% if posttime < nowunix %}
+    {% if post.type != 'hidden' %}
       <article class="post" style="display: none;">
         {% if post.img %}
           <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
@@ -25,42 +23,40 @@ layout: main
 </div>
 
 <div id="paginated-index">
-{% for post in paginator.posts %}
-    {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
-    {% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
-    {% if posttime < nowunix %}
-    <article class="post">
-      {% if post.img %}
-        <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
-      {% endif %}
-      <div class="post-content">
-        <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}"><span style="text-transform: capitalize;">{{post.type}}</span> - {{post.title}}</a></h2>
-        <p class="post-article-ref">{{post.journal}}, {{post.year}}. {{ post.authors }}</p>
-        <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
-        <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-        <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
-      </div>
-    </article>
-  {% endif %}
-{% endfor %}
+  {% for post in paginator.posts %}
+    {% if post.type != 'hidden' %}
+      <article class="post">
+        {% if post.img %}
+          <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+        {% endif %}
+        <div class="post-content">
+          <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}"><span style="text-transform: capitalize;">{{post.type}}</span> - {{post.title}}</a></h2>
+          <p class="post-article-ref">{{post.journal}}, {{post.year}}. {{ post.authors }}</p>
+          <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
+          <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+          <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
+        </div>
+      </article>
+    {% endif %}
+  {% endfor %}
 
-{% if paginator.total_posts > 8 %}
-  <center>
-    {% if paginator.page > 1 %}
-      <div class="btn">
-        <a href="{{paginator.previous_page_path}}"><i class="fas fa-chevron-circle-left fa-3x" style="color: black;"></i></a>
-      </div>
-    {% endif %}
-    {% if (paginator.page > 1) && (paginator.page < paginator.total_pages) %}
-      <div style="margin-right: 60px;"></div>
-    {% endif %}
-    {% if paginator.page < paginator.total_pages %}
-      <div class="btn">
-        <a href="{{paginator.next_page_path}}"><i class="fas fa-chevron-circle-right fa-3x" style="color: black;"></i></a>
-      </div>
-    {% endif %}
-  </center>
-{% endif %}
+  {% if paginator.total_posts > 8 %}
+    <center>
+      {% if paginator.page > 1 %}
+        <div class="btn">
+          <a href="{{paginator.previous_page_path}}"><i class="fas fa-chevron-circle-left fa-3x" style="color: black;"></i></a>
+        </div>
+      {% endif %}
+      {% if (paginator.page > 1) && (paginator.page < paginator.total_pages) %}
+        <div style="margin-right: 60px;"></div>
+      {% endif %}
+      {% if paginator.page < paginator.total_pages %}
+        <div class="btn">
+          <a href="{{paginator.next_page_path}}"><i class="fas fa-chevron-circle-right fa-3x" style="color: black;"></i></a>
+        </div>
+      {% endif %}
+    </center>
+  {% endif %}
 </div>
 
 
