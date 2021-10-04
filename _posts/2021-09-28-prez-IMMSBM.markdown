@@ -32,15 +32,23 @@ Furthermore, their role greatly improves the predictive power of the model. Our
 findings suggest that neglecting interactions when modeling real-world phenomena 
 might lead to incorrect conclusions being drawn.
 
+<br><br>
 
 ## <center><u>The talk</u></center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NInuIukr2mU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<center>
+<div style="width: 100%; aspect-ratio: 16 / 9;">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/NInuIukr2mU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</center>
 
+<br><br>
 
 ## <center><u>The slides</u></center>
+<center>
 <object data="/assets/img/articles/InterRate/Diaporama.pdf" type="application/pdf" width="100%" height="700px">
     <embed src="/assets/img/articles/InterRate/Diaporama.pdf"></embed>
 </object>
+</center>
 
 
 

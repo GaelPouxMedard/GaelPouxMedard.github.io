@@ -11,7 +11,7 @@ doi: 10546541365468/546345453
 date: 2017-09-12 13:32:20 +0300
 description:  # Add post description (optional)
 img: articles/covers/images.jpg # Add image post (optional)
-fig-caption: # Add figcaption (optional, jsp a quoi ça sert)
+fig-caption: # Add figcaption
 tags: [tag1, tag2]
 ---
 

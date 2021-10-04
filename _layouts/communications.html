@@ -22,10 +22,18 @@ layout: main
       </header>
 
       {{content | markdownify}}
-      <h2>Conferences</h2>
+
       {% for post in site.posts %}
         {% if post.type == 'communication' %}
-          <a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a><br><i>{{post.journal}}</i>, {{post.year}}<br><br>
+          <article class="post" style="min-height: 6rem; height: 6rem;">
+            {% if post.img %}
+              <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+            {% endif %}
+            <div class="post-content">
+              <h2 class="post-title" style="font-size: 20px;"><a href="{{post.url | prepend: site.baseurl}}"><span style="text-transform: capitalize;">{{post.type}}</span> - {{post.title}}</a></h2>
+              <p class="post-article-ref" style="font-size: 15px;">{{post.journal}}, {{post.date | date: '%b %Y'}}. {{ post.authors }}</p>
+              </div>
+          </article>
         {% endif %}
       {% endfor %}
 

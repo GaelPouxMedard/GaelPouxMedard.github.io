@@ -1528,6 +1528,7 @@ a.newer-posts:hover {
    overflow: auto; /* Optionally you can also use overflow: scroll; */
    font-size: 5px;
    color: #000000;
+   text-align: center;
 }
 .sidebar-container {
    /* Optional - You can set a  min-height : whatever px; for reserving some space*/
