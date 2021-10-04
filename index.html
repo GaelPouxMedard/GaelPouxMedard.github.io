@@ -5,7 +5,7 @@ layout: main
 <input type="text" id="filter-input" onkeyup="filterIndex()" placeholder="Search by keywords...">
 <div id="searched-index">
   {% for post in site.posts %}
-    {% if post.type != 'hidden' %}
+    {% if Date.parse({{post.date}}) < Date() %}
       <article class="post" style="display: none;">
         {% if post.img %}
           <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
