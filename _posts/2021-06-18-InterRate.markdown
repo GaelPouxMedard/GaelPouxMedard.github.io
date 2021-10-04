@@ -11,8 +11,9 @@ doi: 10.1007/978-3-030-86523-8_7
 date: 2021-06-18
 description:  # Add post description (optional)
 img: articles/covers/3_InterRate.jpg # Add image post (optional)
-fig-caption: Pieces of information one is exposed to interact together. Their combination influence a user in a different way than the sum of their
- parts. The time-distance separating two interacting pieces of information plays a role in the interaction strength. In this figure, 
+fig-caption: Pieces of information we are exposed to affect our choices. Better, their combination influence a user in a 
+ different way than the sum of their individual influences -- they interact with each other. The time-distance separating 
+ two interacting pieces of information plays a role in the magnitude of interaction. In this figure, 
  you see how strong the interaction is, that is how much it will affect a person's choice, with respect to time.
 tags: [Information, interaction, Convex modeling, Dynamics, Human decision]
 ---
