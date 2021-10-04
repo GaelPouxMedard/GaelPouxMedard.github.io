@@ -35,10 +35,10 @@ the enormous amount of data they possess yet did not extensively explore.
 
 ## Studies
 -	**2019-**: PhD in Informatics at the Université de Lyon “concurrency and actors in information diffusion paths on social networks” under the direction of J.Velcin and S.Loudcher.
--	**2018-2019**: Master in Digital Humanities at the Ecole Normale Supérieure (ENS) of Lyon (15.16/20, rank 1/20)
--	**2017-2019**: Master in Complex Systems at the Ecole Normale Supérieure (ENS) of Lyon (15.27/20, rank 4/12)
--	**2017**: Physics bachelor diploma: 15.58/20, A rank (<10%) at the University Claude Bernard Lyon 1
--	**2011-2014**: Literary baccalaureate (“Good” mention) at the Jean Mermoz high school, Saint-Louis (68)
+-	**2019**: M.Sc in Digital Humanities at the Ecole Normale Supérieure (ENS) of Lyon (15.16/20, rank 1/20)
+-	**2019**: M.Sc in Complex Systems at the Ecole Normale Supérieure (ENS) of Lyon (15.27/20, rank 4/12)
+-	**2017**: B.Sc in physics at the University Claude Bernard Lyon 1 (15.58/20, A rank)
+-	**2014**: Literary baccalaureate at the Jean Mermoz high school, Saint-Louis (“Good” mention)
 
 ## Languages
 -	French (mother tongue)
@@ -53,7 +53,7 @@ the enormous amount of data they possess yet did not extensively explore.
 -	**2015, 2016**: Internship in restoration (waiter & cook) at the restaurant Les  Ailes Libres, Auvergne
 
 ## Miscellaneous
-- **2010-2018** : Coding of several softwares in C++ : basic physics engine, calculator, various games
+- **2010-2021** : Coding of several softwares in C++ : basic physics engine, calculator, various games
 - **2017** : Dispense of home support courses in physics (bachelor level)
 - **2016** : Dispense of home support courses in mathematics (high school level)
 - **2009, 2013** : Involvement in the filming of archeological documentary movies :

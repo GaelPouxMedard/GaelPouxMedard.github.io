@@ -16,13 +16,15 @@ fig-caption: When playing a game, we (usually) have a plan in mind, a strategy. 
 tags: [Stochastic block model, Decision making process, Human behavior, Choice mechanisms]
 ---
 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque suscipit posuere lorem id feugiat. Nulla facilisi. Phasellus cursus luctus scelerisque. Pellentesque ut nisi imperdiet, semper mi sed, mollis eros. Maecenas tincidunt eget arcu a tempus. Cras mattis tincidunt egestas. Integer vestibulum euismod sapien, at condimentum libero mattis vel.
-
-Vivamus eleifend sit amet odio eget efficitur. Nunc molestie massa in condimentum sagittis. Nam et consequat lacus, non dapibus justo. Praesent urna velit, posuere hendrerit est in, dignissim sodales felis. Phasellus ut ligula erat. In vitae lorem eget velit iaculis eleifend. Aliquam a tortor ac nisl vestibulum rhoncus eu sit amet mi. Nunc eu sem convallis, pellentesque erat vestibulum, luctus felis. Nullam ipsum justo, laoreet a mi nec, suscipit molestie urna.
-
-Donec at ornare enim. Nullam facilisis, ipsum id pretium fringilla, dui augue pharetra libero, eu malesuada sem lacus ut tortor. Nam non rhoncus purus. Nulla facilisi. Vestibulum accumsan quis nulla sit amet accumsan. Nulla arcu justo, posuere et nibh et, mattis mollis lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas tristique est quis magna venenatis, et laoreet odio tincidunt. Nulla facilisi.
-
-Phasellus nec tincidunt nisl. Etiam rhoncus turpis nec sapien bibendum finibus. Nunc venenatis neque eleifend, imperdiet libero ut, malesuada nisi. Curabitur maximus euismod condimentum. Vivamus tristique, mauris at malesuada commodo, diam purus ultrices lectus, in pulvinar nisl metus nec turpis. Aenean nec ornare mi, et cursus nisi. In porttitor maximus arcu in faucibus. Nullam tempus ullamcorper lacinia. Nunc ante diam, commodo vitae dictum sit amet, laoreet quis tellus. Suspendisse pretium metus in rhoncus suscipit. Mauris vulputate dui at placerat sagittis. Integer a interdum nunc, nec eleifend dolor. Aliquam erat volutpat. Vestibulum lobortis sed lectus ac finibus. Fusce a interdum nulla, rhoncus placerat ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-
-Nullam eu lacus non purus dapibus porta nec id diam. Quisque lacinia velit in tellus ultricies posuere. Curabitur urna elit, tempus sed ultricies eu, mattis euismod dui. Suspendisse cursus vestibulum nisl. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris sit amet tristique est. In eget tempor arcu. Sed blandit ut orci a luctus. Suspendisse convallis urna tortor. Duis sed gravida augue. Integer volutpat lorem quis lobortis porta.
+Many studies have shown that there are regularities in the way human beings make decisions. 
+However, our ability to obtain models that capture such regularities and can accurately 
+predict unobserved decisions is still limited. We tackle this problem in the context of 
+individuals who are given information relative to the evolution of market prices and 
+asked to guess the direction of the market. We use a networks inference approach with 
+stochastic block models (SBM) to find the  model and network representation that is most 
+predictive of unobserved decisions. Our results suggest that users mostly use recent 
+information (about the market and about their previous decisions) to guess. Furthermore, 
+the analysis of SBM groups reveals a set of strategies used by players to process information 
+and make decisions that is analogous to behaviors observed in other contexts.
+Our study provides and example on how to quantitatively explore human behavior strategies by 
+representing decisions as networks and using rigorous inference and model-selection approaches. 

@@ -9,7 +9,7 @@ layout: main
       <figure>
         <img class="page-image" src={{ "/assets/img/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
         {% if page.fig-caption %}
-          <figcaption>{{page.fig-caption}}</figcaption>
+          <figcaption><span style="font-family:impact;-webkit-text-stroke: 1.15px black;font-size: 14px;color: white;">{{page.fig-caption}}</span></figcaption>
         {% endif %}
       </figure>
     </div> <!-- End Page Cover Image -->
@@ -20,6 +20,8 @@ layout: main
         <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
       </header>
       <p>{{content | markdownify}}</p>
+      <h5>Link to the paper and reference:</h5>
+      <p><a href="{{page.link}}">{{page.title}}</a><br>{{page.authors}}, <i>{{page.journal}}</i>, {{page.year}}<br><i>DOI: {{page.doi}}</i></p>
       <div class="page-footer">
         <div class="page-share">
           <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>

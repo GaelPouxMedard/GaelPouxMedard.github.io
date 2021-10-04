@@ -17,13 +17,22 @@ fig-caption: Pieces of information one is exposed to interact together. Their co
 tags: [Information, interaction, Convex modeling, Dynamics, Human decision]
 ---
 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque suscipit posuere lorem id feugiat. Nulla facilisi. Phasellus cursus luctus scelerisque. Pellentesque ut nisi imperdiet, semper mi sed, mollis eros. Maecenas tincidunt eget arcu a tempus. Cras mattis tincidunt egestas. Integer vestibulum euismod sapien, at condimentum libero mattis vel.
-
-Vivamus eleifend sit amet odio eget efficitur. Nunc molestie massa in condimentum sagittis. Nam et consequat lacus, non dapibus justo. Praesent urna velit, posuere hendrerit est in, dignissim sodales felis. Phasellus ut ligula erat. In vitae lorem eget velit iaculis eleifend. Aliquam a tortor ac nisl vestibulum rhoncus eu sit amet mi. Nunc eu sem convallis, pellentesque erat vestibulum, luctus felis. Nullam ipsum justo, laoreet a mi nec, suscipit molestie urna.
-
-Donec at ornare enim. Nullam facilisis, ipsum id pretium fringilla, dui augue pharetra libero, eu malesuada sem lacus ut tortor. Nam non rhoncus purus. Nulla facilisi. Vestibulum accumsan quis nulla sit amet accumsan. Nulla arcu justo, posuere et nibh et, mattis mollis lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas tristique est quis magna venenatis, et laoreet odio tincidunt. Nulla facilisi.
-
-Phasellus nec tincidunt nisl. Etiam rhoncus turpis nec sapien bibendum finibus. Nunc venenatis neque eleifend, imperdiet libero ut, malesuada nisi. Curabitur maximus euismod condimentum. Vivamus tristique, mauris at malesuada commodo, diam purus ultrices lectus, in pulvinar nisl metus nec turpis. Aenean nec ornare mi, et cursus nisi. In porttitor maximus arcu in faucibus. Nullam tempus ullamcorper lacinia. Nunc ante diam, commodo vitae dictum sit amet, laoreet quis tellus. Suspendisse pretium metus in rhoncus suscipit. Mauris vulputate dui at placerat sagittis. Integer a interdum nunc, nec eleifend dolor. Aliquam erat volutpat. Vestibulum lobortis sed lectus ac finibus. Fusce a interdum nulla, rhoncus placerat ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-
-Nullam eu lacus non purus dapibus porta nec id diam. Quisque lacinia velit in tellus ultricies posuere. Curabitur urna elit, tempus sed ultricies eu, mattis euismod dui. Suspendisse cursus vestibulum nisl. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris sit amet tristique est. In eget tempor arcu. Sed blandit ut orci a luctus. Suspendisse convallis urna tortor. Duis sed gravida augue. Integer volutpat lorem quis lobortis porta.
+Interactions between pieces of information (_entities_) play a substantial 
+role in the way an individual acts on them: adoption of a product, the spread of 
+news, strategy choice, etc. However, the underlying interaction mechanisms are 
+often unknown and have been little explored in the literature.
+We introduce an efficient method to infer both the entities interaction network 
+and its evolution according to the temporal distance separating interacting entities; 
+together, they form the _interaction profile_. The interaction profile allows 
+characterizing the mechanisms of the interaction processes.
+We approach this problem _via_ a convex model based on recent advances in multi-kernel 
+inference. We consider an ordered sequence of exposures to entities (URL, ads, situations) 
+and the actions the user exerts on them (share, click, decision). We study how users 
+exhibit different behaviors according to _combinations_ of exposures they have 
+been exposed to. We show that the effect of a combination of exposures on a user is 
+more than the sum of each exposure's independent effect--there is an interaction. We 
+reduce this modeling to a non-parametric convex optimization problem that can be 
+solved in parallel. Our method recovers state-of-the-art results on interaction processes on three 
+real-world datasets and outperforms baselines in the inference of the underlying data 
+generation mechanisms. Finally, we show that interaction profiles can be visualized 
+intuitively, easing the interpretation of the model.
