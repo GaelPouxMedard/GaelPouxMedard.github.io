@@ -24,10 +24,11 @@ layout: main
 
       {{content | markdownify}}
 
+
       {% for post in site.posts %}
-        {% if post.type == 'teaching' %}
+        {% if post.type == 'lecture' %}
           <p>
-            <a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a><br>{{post.authors}}, <i>{{post.journal}}</i>, {{post.year}}<br><a href="{{post.link}}"><i>DOI: {{post.doi}}</i></a>
+            {{post.year}} - <a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a>
           </p>
         {% endif %}
       {% endfor %}

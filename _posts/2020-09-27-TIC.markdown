@@ -1,0 +1,30 @@
+---
+layout: post
+type: lecture
+support: 
+link: 
+title: L1 - Technologies de l'Information et de la Communication (42h)
+authors: 
+journal: Université Lyon 2
+year: 2020
+doi: 
+date: 2020-09-27
+description: # Add post description (optional)
+img: Teaching-pic.jpg
+fig-caption: 
+tags: [Lecture, Teaching, Lesson]
+---
+
+Cours dispensé en L1.
+
+### De quoi s’agit-il ?
+Les TIC désignent les technologies de l'information et de la communication.
+Considéré comme un enseignement transversal, il est organisé et géré par l’Institut
+de la communication pour l’ensemble des étudiant·es de L1 et L2, mais en
+composante pour les L3.
+### Quel est le contenu ?
+Le programme s’organise autour de l’apprentissage des bonnes pratiques avec les
+logiciels de bureautique (Office et Libre Office) et l’utilisation d’outils de
+communication numérique.
+
+<a href="https://www.univ-lyon2.fr/enseignement-des-tic-bonnes-pratiques">Pour + d'infos</a>

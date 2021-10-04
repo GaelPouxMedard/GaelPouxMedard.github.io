@@ -100,21 +100,39 @@
     function filterIndex() {
       // Declare variables
       var input, filter, ul, li, a, i, txtValue;
-      input = document.getElementById('filter-index');
+      input = document.getElementById('filter-input');
       filter = input.value.toUpperCase();
-      ul = document.getElementById("myIndex");
+      ul = document.getElementById("searched-index");
       li = ul.getElementsByTagName('article');
 
-      // Loop through all list items, and hide those who don't match the search query
-      for (i = 0; i < li.length; i++) {
-        a = li[i].getElementsByClassName("post-content")[0];
-        txtValue = a.textContent || a.innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-          li[i].style.display = "";
-        } else {
+      paginatedIndex = document.getElementById('paginated-index');
+      // If we are not searching anything
+      if (filter.length == 0) {
+        paginatedIndex.style.display = "";
+
+        for (i = 0; i < li.length; i++) {
+          a = li[i].getElementsByClassName("post-content")[0];
           li[i].style.display = "none";
         }
+
+      // If we are searching smthg
+      } else {
+        paginatedIndex.style.display = "none";
+
+        // Loop through all list items, and hide those who don't match the search query
+        for (i = 0; i < li.length; i++) {
+          a = li[i].getElementsByClassName("post-content")[0];
+          txtValue = a.textContent || a.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+          } else {
+            li[i].style.display = "none";
+          }
+        }
+
       }
+
+
     }
    </script>
 
