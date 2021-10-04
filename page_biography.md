@@ -32,7 +32,6 @@ My motivation has not changed since, and is about exploring how mathematical sci
 can help social sciences. The idea is to bridge the gap between researchers in the field and 
 the enormous amount of data they possess yet did not extensively explore.
 
-
 ## Studies
 -	**2019-**: PhD in Informatics at the Université de Lyon “concurrency and actors in information diffusion paths on social networks” under the direction of J.Velcin and S.Loudcher.
 -	**2019**: M.Sc in Digital Humanities at the Ecole Normale Supérieure (ENS) of Lyon (15.16/20, rank 1/20)
