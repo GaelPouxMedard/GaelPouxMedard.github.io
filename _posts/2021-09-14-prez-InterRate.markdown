@@ -15,6 +15,8 @@ fig-caption:
 tags: [Information, interaction, Convex modeling, Dynamics, Human decision]
 ---
 
+Presentation of the paper at ECML-PKDD'21, online.
+
 Interactions between pieces of information (_entities_) play a substantial 
 role in the way an individual acts on them: adoption of a product, the spread of 
 news, strategy choice, etc. However, the underlying interaction mechanisms are 
