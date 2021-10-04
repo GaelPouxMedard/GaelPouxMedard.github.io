@@ -10,10 +10,10 @@ tags: [Gael, Poux, Medard]
 
 Gaël Poux-Médard (Paris, 1996) obtained a literary baccalaureate in 2014 in Strasbourg (France), 
 and immediately switched to learning 
-physics at the **University Lyon 1 (France)**. After finishing his physics bachelor in 2017, he 
-integrated the **Ecole Normale Supérieure (ENS) of Lyon**. During his M.Sc degree "Physics of complex systems", 
-he completed two internships in machine learning: in **Università Rovira i Virgilli (Tarragona, Spain)** 
-for 3 months, and at the **Istituto dei Sistemi Complessi or CNR-ISC (Rome, Italy)** for 6 months. 
+physics at the **University Lyon 1** (France). After finishing his physics bachelor in 2017, he 
+integrated the Ecole Normale Supérieure or **ENS de Lyon**. During his M.Sc degree "Physics of complex systems", 
+he completed two internships in machine learning: in **SEES:lab, Università Rovira i Virgilli** (Tarragona, Spain) 
+for 3 months, and at the Istituto dei Sistemi Complessi or **CNR-ISC** (Rome, Italy) for 6 months. 
 Both internships eventually led to publish in great journals. 
 In parallel, he started and obtained a M.Sc diploma in Digital Humanities at the ENS of Lyon. 
 Both M.Sc degrees were obtained in 2019. Finally, he started a PhD thesis in October 2019 at the

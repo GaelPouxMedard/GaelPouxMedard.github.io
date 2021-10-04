@@ -35,8 +35,11 @@ Here are some examples.
 ![alt text](/assets/img/articles/Epimap/Metrics.jpg#center)
 
 #### <center><u>Make animated visualizations</u></center>
+###### <center>(see how the <i>limes</i> appears around 100AC)</center>
 <center>
 <div style="width: 100%; aspect-ratio: 16 / 9;">
-<iframe width="100%" height="100%" src="https://www.youtube.com/watch?v=xMhaK8pxn3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/xMhaK8pxn3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </center>
+
+ 
