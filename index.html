@@ -5,7 +5,9 @@ layout: main
 <input type="text" id="filter-input" onkeyup="filterIndex()" placeholder="Search by keywords...">
 <div id="searched-index">
   {% for post in site.posts %}
-    {% if Date.parse({{post.date}}) < Date() %}
+    {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+    {% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
+    {% if posttime < nowunix %}
       <article class="post" style="display: none;">
         {% if post.img %}
           <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
@@ -24,7 +26,9 @@ layout: main
 
 <div id="paginated-index">
 {% for post in paginator.posts %}
-  {% if post.type != 'hidden' %}
+    {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+    {% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
+    {% if posttime < nowunix %}
     <article class="post">
       {% if post.img %}
         <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
