@@ -1544,6 +1544,11 @@ a.newer-posts:hover {
     width: 100%;
 }
 
+img[src*='#center'] {
+    display: block;
+    margin: auto;
+}
+
 
 
 @media only screen and (max-height: 768px) {

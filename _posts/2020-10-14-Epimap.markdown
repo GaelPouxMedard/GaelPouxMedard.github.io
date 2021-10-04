@@ -11,23 +11,32 @@ doi:
 date: 2020-10-14
 description: # Add post description (optional)
 img: articles/covers/7_Epimap.jpg
-fig-caption: Choose a time range and a textual filter, and visualize how latin engraving appeared, spread, disappeared through the
+fig-caption: Choose a time range and a textual filter, and visualize how latin engravings appeared, spread and disappeared through the
  ages, using a wide range of analysis tools (density maps, 2D histograms, entropy, average distance, clusters, ...). 
  You can also download the raw data in a .csv format.
-tags: [Clustering, Temporal Bayesian Prior, Powered Dirichlet Process, Hawkes Process, PDP, Dirichlet]
+tags: [Sidework, Archaeology, Latin, Inscription, Epimap]
 ---
 
 Try it yourself <a href="https://gpouxmed.pythonanywhere.com/">HERE</a>!
 
-Choose a time range and a textual filter, and visualize how latin engraving appeared, spread, disappeared through the
+Choose a time range and a textual filter, and visualize how latin engravings appeared, spread and disappeared through the
 ages, using a wide range of analysis tools (density maps, 2D histograms, entropy, average distance, clusters, ...). 
 You can also download the raw data in a .csv format.
 
-Here are some possible visualizations.
+Here are some examples.
 
 #### <center><u>Pinpoint on a map</u></center>
-![alt text](/assets/img/articles/Epimap/Map1.jpg)
+![alt text](/assets/img/articles/Epimap/Map1.jpg#center)
+
 #### <center><u>Explore various visualizations</u></center>
-![alt text](/assets/img/articles/Epimap/Map2.jpg)
+![alt text](/assets/img/articles/Epimap/Map2.jpg#center)
+
 #### <center><u>Metrics provided</u></center>
-![alt text](/assets/img/articles/Epimap/Metrics.jpg)
+![alt text](/assets/img/articles/Epimap/Metrics.jpg#center)
+
+#### <center><u>Make animated visualizations</u></center>
+<center>
+<div style="width: 100%; aspect-ratio: 16 / 9;">
+<iframe width="100%" height="100%" src="https://www.youtube.com/watch?v=xMhaK8pxn3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</center>
