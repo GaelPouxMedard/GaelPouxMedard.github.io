@@ -28,7 +28,7 @@ layout: main
         {% if post.type == 'article' %}
           {% if post.support == 'conference' %}
             <p>
-              <a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a><br>{{post.authors}}, <i>{{post.journal}}</i>, {{post.year}}<br><a href="{{post.link}}"><i>DOI: {{post.doi}}</i></a>
+              <a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a><br>{{post.authors}}, <i>{{post.journal}}</i>, {{post.year}}<br><a href="http://doi.org/{{post.doi}}"><i>DOI: {{post.doi}}</i></a>
             </p>
           {% endif %}
         {% endif %}
@@ -38,7 +38,7 @@ layout: main
       {% for post in site.posts %}
         {% if post.type == 'article' %}
           {% if post.support == 'journal' %}
-            <p><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a><br>{{post.authors}}, <i>{{post.journal}}</i>, {{post.year}}<br><a href="{{post.link}}"><i>DOI: {{post.doi}}</i></a>
+            <p><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a><br>{{post.authors}}, <i>{{post.journal}}</i>, {{post.year}}<br><a href="http://doi.org/{{post.doi}}"><i>DOI: {{post.doi}}</i></a>
             </p>
           {% endif %}
         {% endif %}
