@@ -1,17 +1,14 @@
 title: Gaël Poux-Médard
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Gaël Poux-Médard, PhD in Applied Mathematics and Computer Science. Personal website: news, bio, publication, teaching, side projects.
 permalink: ':title/'
 #baseurl: "/GaelPouxMedard/" # the subpath of your site, e.g. /blog
 url: "https://github.XXX.com" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Gaël Poux-Médard # add your name
 author-img: photo.jpg # add your photo
-about-author: PhD student in applied mathematics and computer science. # add description
+about-author: PhD in applied mathematics and computer science. # add description
 social-twitter: GaelPoux # add your Twitter handle
 #social-facebook: # add your Facebook handle
 social-github: GaelPouxMedard # add your Github handle
