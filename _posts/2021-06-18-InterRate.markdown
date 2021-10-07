@@ -5,7 +5,7 @@ support: conference
 link: https://arxiv.org/pdf/2104.13695
 title: Information Interaction Profile of Choice Adoption
 authors: <b>G. Poux-Médard</b>, J. Velcin, S. Loudcher
-journal: ECML-PKDD'21
+journal: ECML-PKDD
 year: 2021
 doi: 10.1007/978-3-030-86523-8_7
 date: 2021-06-18

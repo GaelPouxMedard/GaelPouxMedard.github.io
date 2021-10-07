@@ -5,7 +5,7 @@ support: conference
 link: 
 title: Powered Hawkes-Dirichlet Process - Challenging Textual Clustering using a Flexible Temporal Prior
 authors: <b>G. Poux-Médard</b>, J. Velcin, S. Loudcher
-journal: ICDM'21
+journal: ICDM
 year: 2021
 doi: 
 date: 2021-12-01
