@@ -95,44 +95,47 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://theysaidso.com/gadgets/v3/theysaidso.js"></script>
 
-  <!-- Filter -->
-  <script>
-    function filterIndex() {
-      // Declare variables
-      var input, filter, ul, li, a, i, txtValue;
-      input = document.getElementById('filter-input');
-      filter = input.value.toUpperCase();
-      ul = document.getElementById("searched-index");
-      li = ul.getElementsByTagName('article');
+    <!-- Filter -->
+    <script>
+      function filterIndex() {
+        // Declare variables
+        var input, filter, ul, li, a, i, txtValue;
+        input = document.getElementById('filter-input');
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("searched-index");
+        li = ul.getElementsByTagName('article');
 
-      paginatedIndex = document.getElementById('paginated-index');
-      // If we are not searching anything
-      if (filter.length == 0) {
-        paginatedIndex.style.display = "";
+        paginatedIndex = document.getElementById('paginated-index');
+        // If we are not searching anything
+        if (filter.length == 0) {
+          paginatedIndex.style.display = "";
 
-        for (i = 0; i < li.length; i++) {
-          a = li[i].getElementsByClassName("post-content")[0];
-          li[i].style.display = "none";
-        }
-
-      // If we are searching smthg
-      } else {
-        paginatedIndex.style.display = "none";
-
-        // Loop through all list items, and hide those who don't match the search query
-        for (i = 0; i < li.length; i++) {
-          a = li[i].getElementsByClassName("post-content")[0];
-          txtValue = a.textContent || a.innerText;
-          if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            li[i].style.display = "";
-          } else {
+          for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByClassName("post-content")[0];
             li[i].style.display = "none";
           }
-        }
 
+        // If we are searching smthg
+        } else {
+          paginatedIndex.style.display = "none";
+
+          // Loop through all list items, and hide those who don't match the search query
+          for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByClassName("post-content")[0];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+              li[i].style.display = "";
+            } else {
+              li[i].style.display = "none";
+            }
+          }
+
+        }
       }
-    }
-   </script>
+     </script>
+
+    <!-- Get indexed by Google -->
+    <meta name="google-site-verification" content="2XQw--TWPNxaEQbn7CzMSCCv9H49kZs_rtEPsimqe9U" />
 
 
 </head>
