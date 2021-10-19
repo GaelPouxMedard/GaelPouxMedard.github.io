@@ -1399,7 +1399,7 @@ a.newer-posts:hover {
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .post {
-    width: 48%;
+    width: 100%;
     max-width: 100%;
     margin: 0 0.9% 1.5%;
     -webkit-box-orient: vertical;

@@ -20,7 +20,7 @@ layout: main
         <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
       </header>
       <p>{{content | markdownify}}</p>
-      {% if page.journal %}
+      {% if page.type == 'article' %}
       <h5>Link to the paper and reference:</h5>
       <p><a href="{{page.link}}">{{page.title}}</a><br>{{page.authors}}, <i>{{page.journal}}</i>, {{page.year}}<br><i>DOI: {{page.doi}}</i></p>
       {% endif %}
