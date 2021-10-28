@@ -1,14 +1,14 @@
----
+﻿---
 layout: post
-type: article
-support: conference
+type: communication
+support: powerpoint
 link: 
-title: Powered Hawkes-Dirichlet Process - Challenging Textual Clustering using a Flexible Temporal Prior
-authors: <b>G. Poux-Médard</b>, J. Velcin, S. Loudcher
+title: Presentation - Powered Hawkes-Dirichlet Process - Challenging Textual Clustering using a Flexible Temporal Prior
+authors: <b>G. Poux-Médard</b>
 journal: ICDM
 year: 2021
 doi: 
-date: 2021-12-01
+date: 2021-12-08
 description: # Add post description (optional)
 img: articles/covers/6_PDHP.png
 fig-caption: The appearance of a document (news, tweet, article, etc.) is conditioned by its semantic content, 
@@ -19,6 +19,8 @@ fig-caption: The appearance of a document (news, tweet, article, etc.) is condit
  that our model can automatically recover a _story_ (the sequence of related publications and intertwinned their dynamics).
 tags: [Clustering, Temporal Bayesian Prior, Powered Dirichlet Process, Hawkes Process, PDP, Dirichlet]
 ---
+
+Presentation of the paper at ICDM'21, in Auckland (online).
 
 The textual content of a document and its publication date are intertwined. 
 For example, the publication of a news article on a topic is influenced by 
@@ -38,3 +40,23 @@ or a mixture of both with high accuracy when they are not. We demonstrate
 that PDHP generalizes previous work --such as the Dirichlet-Hawkes process 
 (DHP) and Uniform process (UP). Finally, we illustrate the changes induced 
 by PDHP over DHP and UP in a real-world application using Reddit data.
+
+
+<br><br>
+
+## <center><u>The talk</u></center>
+<center>
+<div style="width: 100%; aspect-ratio: 16 / 9;">
+<iframe width="100%" height="100%" src="https://www.youtube.com/watch?v=FaipVzux7gI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</center>
+
+<br><br>
+
+## <center><u>The slides</u></center>
+<center>
+<object data="/assets/img/articles/InterRate/Diaporama.pdf" type="application/pdf" width="100%" height="700px">
+    <embed src="/assets/img/articles/InterRate/Diaporama.pdf"></embed>
+</object>
+</center>
+
