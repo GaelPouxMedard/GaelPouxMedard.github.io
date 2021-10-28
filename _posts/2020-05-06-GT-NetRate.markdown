@@ -12,7 +12,7 @@ date: 2020-05-06
 description:  # Add post description (optional)
 img: articles/covers/9_GT-NetRate.jpg # Add image post (optional)
 fig-caption: 
-tags: [Network, Complex System, Convex modeling, Dynamics]
+tags: [Networks, Complex Systems, Convex Modeling, Dynamics]
 ---
 
 PhD students workshop at ERIC lab.

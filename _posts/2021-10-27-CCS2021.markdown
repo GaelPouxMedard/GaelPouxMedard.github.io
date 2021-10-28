@@ -1,18 +1,18 @@
 ﻿---
 layout: post
-type: communication
+type: organization
 support: organizer
 link: 
 title: Organizing committee CCS 2021
 authors: <b>G. Poux-Médard</b>
-journal: CCS
+journal: CCS 2021
 year: 2021
 doi: 
 date: 2021-10-27
 description: # Add post description (optional)
 img: articles/covers/14_CCS.jpg
 fig-caption: 
-tags: [Complexity, Complex systems, Networks, Conference]
+tags: [Complexity, Complex Systems, Networks]
 ---
 
 Helped to organize the <a href="https://ccs2021.univ-lyon1.fr/#HOME">CCS 2021 conference</a>.

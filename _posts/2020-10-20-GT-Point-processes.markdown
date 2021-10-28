@@ -12,7 +12,7 @@ date: 2020-10-20
 description:  # Add post description (optional)
 img: articles/covers/10_PointProcesses.png # Add image post (optional)
 fig-caption: 
-tags: [Point process, Hawkes process, Dirichlet-Hawkes process, Dynamics]
+tags: [Point Process, Hawkes Process, Dirichlet-Hawkes Process, Dynamics]
 ---
 
 PhD students workshop at ERIC lab.

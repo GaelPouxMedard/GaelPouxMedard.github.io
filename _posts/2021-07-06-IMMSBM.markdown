@@ -15,7 +15,7 @@ fig-caption: Pieces of information interact with each other, on Twitter, Reddit,
  When a user of these platforms has to make a choice, s/he will be influenced by this interaction.
  On this picture, you see which groups of information interact strongly with each other. The darker the color, the more
  an exposed user's decision is likely to change due to information interaction.
-tags: [Interaction, Information, Stochastic block model, Decision making process, Human behavior, Choice mechanisms]
+tags: [Interaction, Information, Stochastic Block Model, Decision Making Process, Human Behavior, Choice Mechanisms]
 ---
 
 

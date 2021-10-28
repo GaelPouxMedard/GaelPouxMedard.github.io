@@ -13,7 +13,7 @@ description:  # Add post description (optional)
 img: articles/covers/2_MMSBM_MrBanks.png # Add image post (optional)
 fig-caption: When playing a game, we (usually) have a plan in mind, a strategy. We show that these complex strategies can be broken down into more elementary, simpler ones. We, humans, use each of those common building blocks to a certain extent (represented here by a color code) to elaborate our own, specific way of playing games.
  Here, each line is a human, and each of the 4 column is a strategy, grouped by complexity.
-tags: [Stochastic block model, Decision making process, Human behavior, Choice mechanisms]
+tags: [Stochastic Block Model, Decision Making Process, Human Behavior, Choice Mechanisms]
 ---
 
 Many studies have shown that there are regularities in the way human beings make decisions. 

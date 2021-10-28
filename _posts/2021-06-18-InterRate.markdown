@@ -15,7 +15,7 @@ fig-caption: Pieces of information we are exposed to affect our choices. Better,
  different way than the sum of their individual influences -- they interact with each other. The time-distance separating 
  two interacting pieces of information plays a role in the magnitude of interaction. In this figure, 
  you see how strong the interaction is, that is how much it will affect a person's choice, with respect to time.
-tags: [Information, interaction, Convex modeling, Dynamics, Human decision]
+tags: [Information, Interaction, Convex Modeling, Dynamics, Human Decision]
 ---
 
 Interactions between pieces of information (_entities_) play a substantial 

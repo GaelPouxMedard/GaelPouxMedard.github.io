@@ -3,7 +3,7 @@ layout: post
 type: communication
 support: powerpoint
 link: 
-title: Presentation - Powered Hawkes-Dirichlet Process - Challenging Textual Clustering using a Flexible Temporal Prior
+title: Powered Hawkes-Dirichlet Process - Challenging Textual Clustering using a Flexible Temporal Prior
 authors: <b>G. Poux-Médard</b>
 journal: ICDM
 year: 2021
