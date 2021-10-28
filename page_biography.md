@@ -49,7 +49,6 @@ the enormous amount of data they possess yet did not extensively explore.
 -	**2018**: Internship at the university Rovira I Virgili – SEES:Lab (Spain) as part of the project entitled “Statistical mechanics for modeling and prediction of human behavior”, supervised by M. SALES-PARDO
 -	**2017**: Internship at the Institut Lumière Matière (iLM) of Lyon entitled « Bubble nanofluidics », supervised by C. YBERT and O. BONHOMME
 -	**2011-2016**: Volunteer on the archeological excavation site of Puy-de-Corent, Auvergne.
--	**2015, 2016**: Internship in restoration (waiter & cook) at the restaurant Les  Ailes Libres, Auvergne
 
 ## Miscellaneous
 - **2010-2021** : Coding of several softwares in C++ : basic physics engine, calculator, various games
