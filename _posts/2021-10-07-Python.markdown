@@ -1,0 +1,20 @@
+---
+layout: post
+type: lecture
+support: 
+link: 
+title: M1 - Algorithms and advanced coding (28h)
+authors: 
+journal: Université Lyon 2
+year: 2021
+doi: 
+date: 2021-10-07
+description: # Add post description (optional)
+img: Teaching-pic.jpg
+fig-caption: 
+tags: [Lecture, Teaching, Lesson]
+---
+
+Lecture given to M1 students.
+
+Advanced coding lectures on Python and its various libraries.

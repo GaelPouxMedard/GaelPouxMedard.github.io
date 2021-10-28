@@ -10,7 +10,7 @@ year: 2021
 doi: 
 date: 2021-12-08
 description: # Add post description (optional)
-img: articles/covers/6_PDHP.png
+img: articles/covers/12_prez-PDHP.jpg
 fig-caption: The appearance of a document (news, tweet, article, etc.) is conditioned by its semantic content, 
  but also by its publication date wrt previous articles' ones, to a certain extent. 
  By varying r, we can choose whether to focus our clustering algorithm more on the 
@@ -55,8 +55,8 @@ by PDHP over DHP and UP in a real-world application using Reddit data.
 
 ## <center><u>The slides</u></center>
 <center>
-<object data="/assets/img/articles/InterRate/Diaporama.pdf" type="application/pdf" width="100%" height="700px">
-    <embed src="/assets/img/articles/InterRate/Diaporama.pdf"></embed>
+<object data="/assets/img/articles/PDHP/Diaporama.pdf" type="application/pdf" width="100%" height="700px">
+    <embed src="/assets/img/articles/PDHP/Diaporama.pdf"></embed>
 </object>
 </center>
 

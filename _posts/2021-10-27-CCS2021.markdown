@@ -1,0 +1,22 @@
+﻿---
+layout: post
+type: communication
+support: organizer
+link: 
+title: Organizing committee CCS 2021
+authors: <b>G. Poux-Médard</b>
+journal: CCS
+year: 2021
+doi: 
+date: 2021-10-27
+description: # Add post description (optional)
+img: articles/covers/14_CCS.jpg
+fig-caption: 
+tags: [Complexity, Complex systems, Networks, Conference]
+---
+
+Helped to organize the <a href="https://ccs2021.univ-lyon1.fr/#HOME">CCS 2021 conference</a>.
+
+The venue lasted 7 days for 350 talks, 2 poster sessions and a dozen of workshops about complex systems.
+
+![alt text](/assets/img/articles/covers/13_CCS.jpg)
