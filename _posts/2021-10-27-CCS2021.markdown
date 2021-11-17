@@ -19,4 +19,6 @@ Helped to organize the <a href="https://ccs2021.univ-lyon1.fr/#HOME">CCS 2021 co
 
 The venue lasted 7 days for 350 talks, 2 poster sessions and a dozen of workshops about complex systems.
 
+![alt text](/assets/img/Vrac/CCS_myname.jpg)
+
 ![alt text](/assets/img/articles/covers/13_CCS.jpg)
