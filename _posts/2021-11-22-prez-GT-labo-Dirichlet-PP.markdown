@@ -8,7 +8,7 @@ authors: <b>G. Poux-Médard</b>
 journal: ERIC lab
 year: 2021
 doi:
-date: 2021-11-22
+date: 2021-11-21
 description:  # Add post description (optional)
 img: articles/covers/15_Dirichlet-point-processes.png # Add image post (optional)
 fig-caption: Figure from (Kapoor et al., 2018)
