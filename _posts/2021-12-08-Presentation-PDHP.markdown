@@ -7,7 +7,7 @@ title: Powered Hawkes-Dirichlet Process - Challenging Textual Clustering using a
 authors: <b>G. Poux-Médard</b>
 journal: ICDM
 year: 2021
-doi: 
+doi: 10.1109/ICDM51629.2021.00062
 date: 2021-12-08
 description: # Add post description (optional)
 img: articles/covers/12_prez-PDHP.jpg
