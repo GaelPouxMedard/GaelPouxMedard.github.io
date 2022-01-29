@@ -1,0 +1,42 @@
+﻿---
+layout: post
+type: article
+support: conference
+link: https://arxiv.org/pdf/2109.07170.pdf
+title: PDHP - un Prior Temporel Flexible pour Clustering Textuel Difficile
+authors: <b>G. Poux-Médard</b>, J. Velcin, S. Loudcher
+journal: EGC
+year: 2022
+doi: 
+date: 2022-01-04
+description: # Add post description (optional)
+img: articles/covers/16-PDHP-EGC.jpg
+fig-caption: L'apparition d'un document (news, tweet, article, etc.) est conditionnée non seulement par son contenu sémantique, 
+    mais également par sa date de publication (par rapport aux publications précédentes) dans une certaine mesure.
+    En jouant sur un hyperparamètre r, il est possible de choisir sur quelle information se focaliser -- le texte ou le temps.
+    Les documents sont ainsi regroupés en clusters en fonction de leur contenu ou de leur dynamique, ou 
+    d'une mixture des deux. Sur cette image, nous représentons un des résultats possibles -- l'importance de chaque 
+    cluster sur un axe des temps réels, pour un corpus récupéré sur Reddit en avril 2019. Nous récupérons les
+    divers événements qui y sont subvenus -- incendie de Notre-Dâme, photo d'un trou noir, attentats au Sri Lanka, etc.
+tags: [Clustering, Temporal Bayesian Prior, Powered Dirichlet Process, Hawkes Process, PDP, Dirichlet]
+---
+
+This work is a translation of the 
+<a href="{{ "/PDHP" | prepend: site.url }}">Powered Hawkes-Dirichlet Process article</a> (ICDM 2021)
+for the EGC conference.
+
+
+Le contenu textuel d’un document et sa date de publication sont corrélés. Par exemple, 
+une publication scientifique est influencée par les précédents articles cités dans 
+ladite publication. Utiliser cette corrélation permet d’améliorer la compréhension 
+de grands corpus textuel datés. Cependant, cette tâche peut se compliquer lorsque les 
+textes considérés sont courts ou possèdent des vocabulaires similaires. De plus, la 
+corrélation entre texte et date est rarement parfaite.
+
+Nous développons une méthode répondant à ces limites, permettant de créer des 
+clusters de documents en fonction de leur contenu et de leur date : le processus 
+Powered Dirichlet-Hawkes (PDHP). Nous montrons que PDHP présente de meilleures 
+performances que les modèles état de l’art (qu’il généralise) lorsque l’information 
+textuelle ou temporelle est peu informative. Le PDHP se libère également de l’hypothèse 
+d’une corrélation parfaite entre texte et date des documents. Enfin, nous illustrons 
+une possible application sur des données réelles, provenant de Reddit.
