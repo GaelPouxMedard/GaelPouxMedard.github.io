@@ -11,12 +11,7 @@ doi: 10.1109/ICDM51629.2021.00062
 date: 2021-12-08
 description: # Add post description (optional)
 img: articles/covers/12_prez-PDHP.jpg
-fig-caption: The appearance of a document (news, tweet, article, etc.) is conditioned by its semantic content, 
- but also by its publication date wrt previous articles' ones, to a certain extent. 
- By varying r, we can choose whether to focus our clustering algorithm more on the 
- temporal side or more on the semantic side, or a mixture of both. Here, we present wordclouds, triggering  kernels  
- and real-intensities for one of the clusters (here related to 2019 Sri Lanka bombings) for various values of r. We say 
- that our model can automatically recover a _story_ (the sequence of related publications and intertwinned their dynamics).
+fig-caption: 
 tags: [Clustering, Temporal Bayesian Prior, Powered Dirichlet Process, Hawkes Process, PDP, Dirichlet]
 ---
 

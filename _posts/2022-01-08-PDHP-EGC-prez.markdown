@@ -11,11 +11,7 @@ doi:
 date: 2022-01-08
 description: # Add post description (optional)
 img: articles/covers/17-PDHP-EGC-prez.jpeg
-fig-caption: L'apparition d'un document (news, tweet, article, etc.) est conditionnée non seulement par son contenu sémantique,
-    mais également par sa date de publication (par rapport aux publications précédentes) dans une certaine mesure.
-    En jouant sur un hyperparamètre r, il est possible de choisir sur quelle information se focaliser -- le texte ou le temps.
-    Les documents sont ainsi regroupés en clusters en fonction de leur contenu ou de leur dynamique, ou
-    d'une mixture des deux.
+fig-caption: 
 tags: [Clustering, Temporal Bayesian Prior, Powered Dirichlet Process, Hawkes Process, PDP, Dirichlet]
 ---
 
