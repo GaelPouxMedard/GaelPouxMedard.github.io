@@ -2,7 +2,7 @@
 layout: post
 type: communication
 support: powerpoint
-link: https://arxiv.org/pdf/2109.07170.pdf
+link: http://arxiv.org/abs/2201.12568
 title: PDHP - un Prior Temporel Flexible pour Clustering Textuel Difficile
 authors: <b>G. Poux-Médard</b>
 journal: EGC
