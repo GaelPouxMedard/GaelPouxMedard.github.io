@@ -7,7 +7,7 @@ title: Le Processus Powered Dirichlet-Hawkes comme A Priori Flexible pour Cluste
 authors: <b>G. Poux-Médard</b>
 journal: Revue des Nouvelles Technologies de l'Information - p.323-330
 year: 2022
-doi: 
+doi: 10.48550/arXiv.2201.12568
 date: 2022-01-08
 description: # Add post description (optional)
 img: articles/covers/17-PDHP-EGC-prez.jpeg
