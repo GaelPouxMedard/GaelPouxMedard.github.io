@@ -3,9 +3,9 @@ layout: post
 type: communication
 support: powerpoint
 link: http://arxiv.org/abs/2201.12568
-title: PDHP - un Prior Temporel Flexible pour Clustering Textuel Difficile
+title: Le Processus Powered Dirichlet-Hawkes comme A Priori Flexible pour Clustering Temporel de Textes
 authors: <b>G. Poux-Médard</b>
-journal: EGC
+journal: Revue des Nouvelles Technologies de l'Information - p.323-330
 year: 2022
 doi: 
 date: 2022-01-08
