@@ -24,6 +24,6 @@ Presentation at the Center Marc Bloch in Berlin: different ways of modeling time
 </object>
 </center>
 
-![alt text](/assets/img/Vrac/Img_pres_Berlin.png)
+<img src="/assets/img/Vrac/Img_pres_Berlin.png" alt="drawing" width="50%"/>
 
 
