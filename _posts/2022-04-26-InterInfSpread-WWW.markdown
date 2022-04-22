@@ -2,9 +2,9 @@
 layout: post
 type: article
 support: conference
-link: doi.org/10.1145/3487553.3524190
+link: http://arxiv.org/abs/2204.10165
 title: Interactions in Information Spread
-authors: <b>G. Poux-Médard</b>, J. Velcin, S. Loudcher
+authors: <b>G. Poux-Médard</b>
 journal: TheWebConf - Companion proceedings (PhD symposium)
 year: 2022
 doi: 10.1145/3487553.3524190
