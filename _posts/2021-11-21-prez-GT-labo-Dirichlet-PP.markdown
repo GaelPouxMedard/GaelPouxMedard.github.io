@@ -10,7 +10,7 @@ year: 2021
 doi:
 date: 2021-11-21
 description:  # Add post description (optional)
-img: articles/covers/15_Dirichlet-point-processes.png # Add image post (optional)
+img: articles/covers/15-Dirichlet-point-processes.jpg # Add image post (optional)
 fig-caption: Figure from (Kapoor et al., 2018)
 tags: [Point Process, Dirichlet, Hawkes Process, Dirichlet-Hawkes Process, Dynamics, Powered Dirichlet Process, Network, Netrate, Survival]
 ---
