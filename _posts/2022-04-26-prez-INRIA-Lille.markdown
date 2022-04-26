@@ -8,15 +8,15 @@ authors: <b>G. Poux-Médard</b>
 journal: INRIA (Lille)
 year: 2022
 doi:
-date: 2022-04-25
+date: 2022-04-26
 description:  # Add post description (optional)
 img: articles/covers/20-INRIA-Lille.jpg # Add image post (optional)
-fig-caption: 
+fig-caption: Presentation at the INRIA of Lille on Dirichlet-Point processes.
 tags: [Point Process, Dirichlet, Hawkes Process, Dirichlet-Hawkes Process, Dynamics, Powered Dirichlet Process, Network, Netrate, Survival, Multivariate]
 ---
 
 
-Presentation at the INRIA of Lille: Dirichlet-Point processes.
+Presentation at the INRIA of Lille (MODAL team): some perspectives on Dirichlet-Point processes.
 
 ## <center><u>The slides</u></center>
 <center>
@@ -25,4 +25,9 @@ Presentation at the INRIA of Lille: Dirichlet-Point processes.
 </object>
 </center>
 
+<br>
+<br>
 
+<p align="center">
+    <img src="/assets/img/Vrac/DHPfusion.jpg" alt="drawing" width="50%"/>
+</p>
