@@ -8,7 +8,7 @@ authors: <b>G. Poux-Médard</b>
 journal: INRIA (Lille)
 year: 2022
 doi:
-date: 2022-04-26
+date: 2022-04-25
 description:  # Add post description (optional)
 img: articles/covers/20-INRIA-Lille.jpg # Add image post (optional)
 fig-caption: 
