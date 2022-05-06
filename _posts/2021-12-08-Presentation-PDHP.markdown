@@ -51,7 +51,9 @@ by PDHP over DHP and UP in a real-world application using Reddit data.
 ## <center><u>The slides</u></center>
 <center>
 <object data="/assets/img/articles/PDHP/Diaporama.pdf" type="application/pdf" width="100%" height="700px">
-    <embed src="/assets/img/articles/PDHP/Diaporama.pdf"></embed>
+    <embed src="/assets/img/articles/PDHP/Diaporama.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/img/articles/PDHP/Diaporama.pdf">Download PDF</a>.</p>
+    </embed>
 </object>
 </center>
 

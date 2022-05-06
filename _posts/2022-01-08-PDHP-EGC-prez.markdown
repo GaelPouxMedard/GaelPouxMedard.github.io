@@ -42,6 +42,6 @@ une possible application sur des données réelles, provenant de Reddit.
 ## <center><u>Les slides</u></center>
 <object data="/assets/img/articles/PDHP/Slides-EGC2022.pdf" type="application/pdf" width="100%" height="700px">
     <embed src="/assets/img/articles/PDHP/Slides-EGC2022.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://yoursite.com/the.pdf">Download PDF</a>.</p>
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/img/articles/PDHP/Slides-EGC2022.pdf">Download PDF</a>.</p>
     </embed>
 </object>

@@ -20,7 +20,9 @@ Presentation at the ERIC lab workshop: state of the art on Dirichlet-Point proce
 ## <center><u>The slides</u></center>
 <center>
 <object data="/assets/img/articles/Tutorials/Dirichlet_Point_processes.pdf" type="application/pdf" width="100%" height="700px">
-    <embed src="/assets/img/articles/Tutorials/Dirichlet_Point_processes.pdf"></embed>
+    <embed src="/assets/img/articles/Tutorials/Dirichlet_Point_processes.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/img/articles/Tutorials/Dirichlet_Point_processes.pdf">Download PDF</a>.</p>
+    </embed>
 </object>
 </center>
 
