@@ -74,8 +74,7 @@ applications or in terms of technical improvements.
 <center>
 <object data="/assets/img/articles/These/Manuscript.pdf" type="application/pdf" width="100%" height="700px">
     <embed src="/assets/img/articles/These/Manuscript.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/img/articles/These/Manuscript.pdf">Download PDF</a>.</p>
-    </embed>
+    <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/img/articles/These/Manuscript.pdf">Download PDF</a>.</p>
 </object>
 </center>
 
