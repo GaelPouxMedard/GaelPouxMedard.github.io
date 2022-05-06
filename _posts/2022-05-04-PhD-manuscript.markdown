@@ -82,7 +82,6 @@ applications or in terms of technical improvements.
 <br>
 <br>
 
-
 <figure>
 <img src="/assets/img/articles/These/Clusters_illustr.png" alt="Image" style="width:90%">
 
