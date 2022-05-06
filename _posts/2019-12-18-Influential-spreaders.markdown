@@ -13,7 +13,7 @@ description:  # Add post description (optional)
 img: articles/covers/1_illustration_physrevres.png # Add image post (optional)
 fig-caption: Average size of an epidemics starting on any node in a network. In the main paper, we derive closed analytical expressions 
   for both the size and duration of avalanches.
-tags: [Epidemics, Networks, Cascades, Statistical Physics]
+tags: [epidemics, networks, cascades, statistical physics]
 ---
 
 

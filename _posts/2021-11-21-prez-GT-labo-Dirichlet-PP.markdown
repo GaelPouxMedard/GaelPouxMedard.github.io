@@ -12,7 +12,7 @@ date: 2021-11-21
 description:  # Add post description (optional)
 img: articles/covers/15-Dirichlet-point-processes.jpg # Add image post (optional)
 fig-caption: Figure from (Kapoor et al., 2018)
-tags: [Point Process, Dirichlet, Hawkes Process, Dirichlet-Hawkes Process, Dynamics, Powered Dirichlet Process, Network, Netrate, Survival]
+tags: [point process, dirichlet, hawkes process, dirichlet-hawkes process, dynamics, powered dirichlet process, Network, Netrate, survival]
 ---
 
 Presentation at the ERIC lab workshop: state of the art on Dirichlet-Point processes.

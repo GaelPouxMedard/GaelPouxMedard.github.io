@@ -12,7 +12,7 @@ date: 2022-01-08
 description: # Add post description (optional)
 img: articles/covers/17-PDHP-EGC-prez.jpeg
 fig-caption: 
-tags: [Clustering, Temporal Bayesian Prior, Powered Dirichlet Process, Hawkes Process, PDP, Dirichlet]
+tags: [clustering, temporal bayesian prior, powered dirichlet process, hawkes process, dirichlet-hawkes process, PDP, dirichlet]
 ---
 
 This work is a translation of the

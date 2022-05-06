@@ -12,7 +12,7 @@ date: 2021-12-08
 description: # Add post description (optional)
 img: articles/covers/12_prez-PDHP.jpg
 fig-caption: 
-tags: [Clustering, Temporal Bayesian Prior, Powered Dirichlet Process, Hawkes Process, PDP, Dirichlet]
+tags: [clustering, temporal bayesian prior, powered dirichlet process, hawkes process, dirichlet-hawkes process, PDP, dirichlet]
 ---
 
 Presentation of the paper at ICDM'21, in Auckland (online).

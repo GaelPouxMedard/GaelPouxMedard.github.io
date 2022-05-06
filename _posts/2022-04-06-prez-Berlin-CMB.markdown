@@ -12,7 +12,7 @@ date: 2022-04-06
 description:  # Add post description (optional)
 img: articles/covers/18-prez-CMB.jpg # Add image post (optional)
 fig-caption: 
-tags: [Clustering, Dynamic, Time]
+tags: [clustering, dynamic, time]
 ---
 
 Presentation at the Center Marc Bloch in Berlin: different ways of modeling time with textual data.

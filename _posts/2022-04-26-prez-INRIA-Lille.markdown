@@ -12,7 +12,7 @@ date: 2022-04-26
 description:  # Add post description (optional)
 img: articles/covers/20-INRIA-Lille.jpg # Add image post (optional)
 fig-caption: Presentation at the INRIA of Lille on Dirichlet-Point processes.
-tags: [Point Process, Dirichlet, Hawkes Process, Dirichlet-Hawkes Process, Dynamics, Powered Dirichlet Process, Network, Netrate, Survival, Multivariate]
+tags: [point process, dirichlet, hawkes process, dirichlet-hawkes process, dynamics, powered dirichlet process, network, netrate, survival, multivariate]
 ---
 
 

@@ -12,7 +12,7 @@ date: 2021-09-28
 description:  # Add post description (optional)
 img: articles/covers/5_Mini-recsys-21.jpg # Add image post (optional)
 fig-caption: 
-tags: [Interaction, Information, Stochastic Block Model, Decision Making Process, Human Behavior, Choice Mechanisms]
+tags: [interaction, information, stochastic block model, decision making process, human behavior, choice mechanisms]
 ---
 
 Presentation of the paper at RecSys'21, in Amsterdam.

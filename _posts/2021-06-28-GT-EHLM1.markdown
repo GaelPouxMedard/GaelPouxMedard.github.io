@@ -12,7 +12,7 @@ date: 2021-06-28
 description:  # Add post description (optional)
 img: articles/covers/11_EHLM.jpg # Add image post (optional)
 fig-caption: 
-tags: [Interaction, Information, Clustering, Point Process, Hawkes Process, Dirichlet-Hawkes Process, Powered Dirichlet Process]
+tags: [interaction, information, clustering, point process, hawkes process, dirichlet-hawkes process, powered dirichlet process]
 ---
 
 PhD students workshop at ERIC lab.

@@ -10,9 +10,9 @@ year: 2021
 doi: 
 date: 2021-05-08
 description: # Add post description (optional)
-img: articles/covers/8_Blindtestchannel.png
+img: articles/covers/8_Blindtestchannel.rpng
 fig-caption: Automatically builds a guess-the-song game from input keywords, time range and world region, and uploads it on Youtube.
-tags: [Sidework, Youtube, Blindtest, Channel, Music]
+tags: [sidework, youtube, blindtest, channel, music]
 ---
 
 <a href="http://youtube.com/channel/UChF9wA8QVXa0-qn9nMek5ig/">Let's play!</a>

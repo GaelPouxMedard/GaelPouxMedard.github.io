@@ -18,7 +18,7 @@ fig-caption: L'apparition d'un document (news, tweet, article, etc.) est conditi
     d'une mixture des deux. Sur cette image, nous représentons un des résultats possibles -- l'importance de chaque 
     cluster sur un axe des temps réels, pour un corpus récupéré sur Reddit en avril 2019. Nous récupérons les
     divers événements qui y sont subvenus -- incendie de Notre-Dâme, photo d'un trou noir, attentats au Sri Lanka, etc.
-tags: [Clustering, Temporal Bayesian Prior, Powered Dirichlet Process, Hawkes Process, PDP, Dirichlet]
+tags: [clustering, temporal bayesian prior, powered dirichlet process, hawkes process, PDP, dirichlet, dirichlet-hawkes process]
 ---
 
 This work is a translation of the 

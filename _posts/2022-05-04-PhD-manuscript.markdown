@@ -12,12 +12,13 @@ date: 2022-05-04
 description: # Add post description (optional)
 img: articles/covers/21-PhD-manuscript.jpg
 fig-caption: Interactions in information spread are rare and brief, and their role is hard to assess. We develop a panel a methods to alleviate these problems.
-tags: [Interaction, Information spread, Multivariate point process, 
-Hawkes process, Block Models, SBM, MMSBM, Dynamic networks,
-Survival analysis, Dirichlet process, Bayesian inference,
-Social network analysis, Network structure inference, 
-Information diffusion, Influence estimation, 
-Document clustering, Recommender systems]
+tags: [interaction, information spread, information, multivariate point process,
+hawkes process, dirichlet-hawkes process, powered dirichlet process, block models, 
+SBM, MMSBM, dynamic networks,
+survival analysis, dirichlet process, bayesian inference,
+social network analysis, network structure inference, 
+information diffusion, influence, 
+document, clustering, recommender systems]
 ---
 
 Since the invention of writing 5~000 years ago, textual information 

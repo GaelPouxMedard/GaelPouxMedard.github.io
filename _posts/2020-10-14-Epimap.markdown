@@ -14,7 +14,7 @@ img: articles/covers/7_Epimap.jpg
 fig-caption: Choose a time range and a textual filter, and visualize how latin engravings appeared, spread and disappeared through the
  ages, using a wide range of analysis tools (density maps, 2D histograms, entropy, average distance, clusters, ...). 
  You can also download the raw data in a .csv format.
-tags: [Sidework, Archaeology, Latin, Inscription, Epimap]
+tags: [sidework, archaeology, latin, inscription, epimap]
 ---
 
 Try it yourself <a href="https://gpouxmed.pythonanywhere.com/">HERE</a>!

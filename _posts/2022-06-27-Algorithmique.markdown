@@ -12,7 +12,7 @@ date: 2022-03-27
 description: # Add post description (optional)
 img: Teaching-pic.jpg
 fig-caption: 
-tags: [Lecture, Teaching, Lesson]
+tags: [lecture, teaching, lesson]
 ---
 
 Lecture given to L3 students.

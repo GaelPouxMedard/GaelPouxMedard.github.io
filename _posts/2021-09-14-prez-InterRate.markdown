@@ -12,7 +12,7 @@ date: 2021-06-18
 description:  # Add post description (optional)
 img: articles/covers/3_prez_interrate_cover.jpg # Add image post (optional)
 fig-caption: 
-tags: [Information, Interaction, Convex Modeling, Dynamics, Human Decision]
+tags: [information, interaction, convex optimization, dynamics, human decision]
 ---
 
 Presentation of the paper at ECML-PKDD'21, online.

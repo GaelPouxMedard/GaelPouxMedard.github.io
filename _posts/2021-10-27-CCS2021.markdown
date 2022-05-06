@@ -12,7 +12,7 @@ date: 2021-10-27
 description: # Add post description (optional)
 img: articles/covers/14_CCS.jpg
 fig-caption: 
-tags: [Complexity, Complex Systems, Networks]
+tags: [complexity, complex systems, networks]
 ---
 
 Helped to organize the <a href="https://ccs2021.univ-lyon1.fr/#HOME">CCS 2021 conference</a>.

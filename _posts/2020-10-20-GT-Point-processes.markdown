@@ -3,7 +3,7 @@ layout: post
 type: tutorial
 support: 
 link: 
-title: Point processes - From the Poisson process to the Powered Dirichlet-Hawkes process
+title: Point processes - From the Poisson process to the Powered dirichlet-Hawkes process
 authors: <b>G. Poux-Médard</b>
 journal: ERIC lab
 year: 2020
@@ -12,7 +12,7 @@ date: 2020-10-20
 description:  # Add post description (optional)
 img: articles/covers/10_PointProcesses.png # Add image post (optional)
 fig-caption: 
-tags: [Point Process, Hawkes Process, Dirichlet-Hawkes Process, Dynamics]
+tags: [point process, hawkes process, dirichlet-hawkes process, dynamics]
 ---
 
 PhD students workshop at ERIC lab.

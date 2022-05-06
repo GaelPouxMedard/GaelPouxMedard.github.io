@@ -12,7 +12,7 @@ date: 2022-04-26
 description: # Add post description (optional)
 img: articles/covers/19-InteractionInfSpread.jpg
 fig-caption: Interactions are rare and brief
-tags: [Interactions, Information spread, Diffusion process]
+tags: [interactions, information spread, diffusion process]
 ---
 
 Large quantities of data flow on the internet.
