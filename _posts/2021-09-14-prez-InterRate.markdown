@@ -61,7 +61,6 @@ intuitively, easing the interpretation of the model.
 <object data="/assets/img/articles/InterRate/Diaporama.pdf" type="application/pdf" width="100%" height="700px">
     <embed src="/assets/img/articles/InterRate/Diaporama.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/img/articles/InterRate/Diaporama.pdf">Download PDF</a>.</p>
-    </embed>
 </object>
 
 

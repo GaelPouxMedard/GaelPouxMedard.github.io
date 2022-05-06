@@ -23,7 +23,6 @@ Presentation at the INRIA of Lille (MODAL team): some perspectives on Dirichlet-
 <object data="/assets/img/articles/Tutorials/INRIA-Lille-(MP)DHP.pdf" type="application/pdf" width="100%" height="700px">
     <embed src="/assets/img/articles/Tutorials/INRIA-Lille-(MP)DHP.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/img/articles/Tutorials/INRIA-Lille-(MP)DHP.pdf">Download PDF</a>.</p>
-    </embed>
 </object>
 </center>
 

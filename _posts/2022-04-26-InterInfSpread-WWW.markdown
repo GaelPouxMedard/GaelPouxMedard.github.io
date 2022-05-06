@@ -40,7 +40,6 @@ should not be neglected when modeling spreading processes.
 <object data="/assets/img/articles/Presentations/SlidesPhDSympWWW2022.pdf" type="application/pdf" width="100%" height="700px">
     <embed src="/assets/img/articles/Presentations/SlidesPhDSympWWW2022.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/img/articles/Presentations/SlidesPhDSympWWW2022.pdf">Download PDF</a>.</p>
-    </embed>
 </object>
 </center>
 

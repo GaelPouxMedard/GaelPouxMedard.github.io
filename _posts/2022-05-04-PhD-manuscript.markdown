@@ -84,7 +84,7 @@ applications or in terms of technical improvements.
 <figure>
 <img src="/assets/img/articles/These/Clusters_illustr.png" alt="Image" style="width:90%">
 
-<figcaption align = "center">
+<figcaption style="align: center">
     <b>A typical result</b> - Set of manually selected 
     clusters along with the vocabulary of their documents (top), 
     their inferred dynamics (middle) and the clusters that 
