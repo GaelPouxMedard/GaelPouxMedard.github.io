@@ -11,7 +11,7 @@ doi:
 date: 2022-05-04
 description: # Add post description (optional)
 img: articles/covers/21-PhD-manuscript.jpg
-fig-caption: Interactions in information spread are rare and brief, and their role is hard to assess. We develop a panel a methods to alleviate these problems.
+fig-caption: Interactions in information spread are rare and brief, and their role is hard to assess. We develop a panel of methods to alleviate these problems.
 tags: [interaction, information spread, information, multivariate point process,
 hawkes process, dirichlet-hawkes process, powered dirichlet process, block models, 
 SBM, MMSBM, dynamic networks,
