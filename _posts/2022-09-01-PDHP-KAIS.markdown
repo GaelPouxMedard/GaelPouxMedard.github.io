@@ -1,24 +1,27 @@
 ﻿---
 layout: post
 type: article
-support: conference
+support: journal
 link: https://arxiv.org/pdf/2109.07170.pdf
 title: Powered Dirichlet-Hawkes Process - Challenging Textual Clustering using a Flexible Temporal Prior
 authors: <b>G. Poux-Médard</b>, J. Velcin, S. Loudcher
-journal: ICDM
-year: 2021
-doi: 10.1109/ICDM51629.2021.00062
-date: 2021-12-07
+journal: Knowledge and Information Systems (KAIS)
+year: 2022
+doi: 
+date: 2022-09-01
 description: # Add post description (optional)
-img: articles/covers/6_PDHP.png
+img: articles/covers/23-PDHP-KAIS.png
 fig-caption: The appearance of a document (news, tweet, article, etc.) is conditioned by its semantic content, 
  but also by its publication date wrt previous articles' ones, to a certain extent. 
  By varying r, we can choose whether to focus our clustering algorithm more on the 
- temporal side or more on the semantic side, or a mixture of both. Here we present wordclouds, triggering  kernels  
- and real-intensities for one of the clusters (here related to 2019 Sri Lanka bombings) for various values of r. We say 
- that our model can automatically recover a _story_ (the sequence of related publications and intertwinned their dynamics).
+ temporal side or more on the semantic side, or a mixture of both. 
+ Here we show how we retrieve either temporal or textual clusters when these two
+ pieces of information are not perfectly correlated.
 tags: [clustering, temporal bayesian prior, powered dirichlet process, hawkes process, dirichlet-hawkes process, PDP, dirichlet]
 ---
+
+This publication is an extended version of a previously published article: 
+<a href="{{ "/PDHP" | prepend: site.url }}">Powered Dirichlet-Hawkes Process article</a> (ICDM 2021)
 
 The textual content of a document and its publication date are intertwined. 
 For example, the publication of a news article on a topic is influenced by 

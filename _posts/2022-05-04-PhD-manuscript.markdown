@@ -2,6 +2,7 @@
 layout: post
 type: PhD
 support: PhD
+pinned: true
 link: 
 title: Interactions in Information Spread
 authors: <b>G. Poux-Médard</b>
@@ -21,7 +22,7 @@ information diffusion, influence,
 document, clustering, recommender systems]
 ---
 
-Since the invention of writing 5~000 years ago, textual information 
+Since the invention of writing 5000 years ago, textual information 
 data flows got generated at an increasing pace. The generation rate 
 has been greatly influenced by technical innovations: clay tablets, 
 papyrus, paper, press, and more recently the Internet. At the same 

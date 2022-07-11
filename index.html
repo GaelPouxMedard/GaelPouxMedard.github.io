@@ -3,6 +3,7 @@ layout: main
 ---
 
 <input type="text" id="filter-input" onkeyup="filterIndex()" placeholder="Search by keywords...">
+<div class="btn" style="margin-bottom: 12px;border: 1px solid #333;"><a href="/page_listAllPosts" style="color:#000;">List all posts</a></div>
 <div id="searched-index">
   {% for post in site.posts %}
     {% if post.type != 'hidden' %}
@@ -26,7 +27,33 @@ layout: main
   {% endfor %}
 </div>
 
+
 <div id="paginated-index">
+
+  <!-- Pinned posts -->
+  {% for post in site.posts %}
+    {% if post.pinned == true %}
+    <article class="post">
+       <i class="fas fa-thumbtack", style="padding: 5px 0px 0px 0px;"></i>
+      {% if post.img %}
+      <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append : post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+      {% endif %}
+      <div class="post-content">
+        <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}"><span style="text-transform: capitalize;">{{post.type}}</span> - {{post.title}}</a></h2>
+        {% if post.journal %}
+        <p class="post-article-ref">{{post.journal}}, {{post.year}}. {{ post.authors }}</p>
+        {% else %}
+        <p class="post-article-ref">{{post.year}}. {{ post.authors }}</p>
+        {% endif %}
+        <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
+        <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+        <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
+      </div>
+    </article>
+    <div id="hr"></div>
+    {% endif %}
+  {% endfor %}
+
   {% for post in paginator.posts %}
     {% if post.type != 'hidden' %}
       <article class="post">
