@@ -3,7 +3,7 @@ layout: main
 ---
 
 <input type="text" id="filter-input" onkeyup="filterIndex()" placeholder="Search by keywords...">
-<div class="btn" style="margin-bottom: 12px;border: 1px solid #333;"><a href="/page_listAllPosts" style="color:#000;">List all posts</a></div>
+<div class="btn" style="margin-bottom: 12px;border: 1px solid #333; width: 20%;"><a href="/page_listAllPosts" style="color:#000;">List all posts</a></div>
 <div id="searched-index">
   {% for post in site.posts %}
     {% if post.type != 'hidden' %}
