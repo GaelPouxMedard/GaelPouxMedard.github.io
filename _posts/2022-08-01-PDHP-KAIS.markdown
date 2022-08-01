@@ -7,8 +7,8 @@ title: Powered Dirichlet-Hawkes Process - Challenging Textual Clustering using a
 authors: <b>G. Poux-Médard</b>, J. Velcin, S. Loudcher
 journal: Knowledge and Information Systems (KAIS)
 year: 2022
-doi: 
-date: 2022-09-01
+doi: 10.1007/s10115-022-01731-3
+date: 2022-08-01
 description: # Add post description (optional)
 img: articles/covers/23-PDHP-KAIS.png
 fig-caption: The appearance of a document (news, tweet, article, etc.) is conditioned by its semantic content, 
