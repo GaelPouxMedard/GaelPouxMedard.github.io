@@ -2,7 +2,7 @@
 layout: post
 type: article
 support: journal
-link: https://link.springer.com/epdf/10.1007/s10115-022-01731-3?sharing_token=YISGk_TnhgVhle8cOSfMmPe4RwlQNchNByi7wbcMAY7hw6lU6sGSlwOq9CgvbsnjYtulRsg_imDU-Lxt0J8eUjkQim25CWTfzSPQrukqqpVIX9m4upFEUqnebQ52YZ6Onz8d6UBTwZyKZB0t_C0Gyq0593mPIjqgVZfmFc7beY4%3D
+link: https://rdcu.be/cSQPe
 title: Powered Dirichlet-Hawkes Process - Challenging Textual Clustering using a Flexible Temporal Prior
 authors: <b>G. Poux-Médard</b>, J. Velcin, S. Loudcher
 journal: Knowledge and Information Systems (KAIS)
