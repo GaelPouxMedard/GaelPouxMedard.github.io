@@ -2,7 +2,7 @@
 layout: post
 type: article
 support: journal
-link: https://link.springer.com/content/pdf/10.1140/epjds/s13688-021-00280-z.pdf
+link: https://rdcu.be/ckSqE
 title: Complex decision-making strategies in a stock market experiment explained as the combination of few simple strategies
 authors: <b>G. Poux-Médard</b>, Sergio Cobo-Lopez, Jordi Duch, Roger Guimerà, Marta Sales-Pardo
 journal: EPJ Data Science (10)
