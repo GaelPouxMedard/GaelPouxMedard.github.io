@@ -2,6 +2,41 @@
 layout: default
 ---
 
+<!-- Top menu when screen is small -->
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#content-menu" id="bouton-menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="content-menu">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="/"><span class="icon"><i class="fas fa-home"></i></span> Home</a>
+                </li>
+                <li>
+                    <a href="/page_publications"><span class="icon"><i class="fas fa-book"></i></span> Publications</a>
+                </li>
+                <li>
+                    <a href="/page_communication"><span class="icon"><i class="fas fa-microphone"></i></span> Communication</a>
+                </li>
+                <li>
+                    <a href="/page_teaching"><span class="icon"><i class="fas fa-university"></i></span> Teaching</a>
+                </li>
+                <li>
+                    <a href="/page_side_projects"><span class="icon"><i class="fas fa-flask"></i></span> Side projects</a>
+                </li>
+                <li>
+                    <a href="/page_biography"><span class="icon"><i class="fas fa-info-circle"></i></span> Biography</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
 <aside class="sidebar">
 <div class="sidebar-container">
   <header>
@@ -13,38 +48,39 @@ layout: default
       <div class="author-subtitle">PhD in computer science and applied mathematics</div>
     </div>
   </header> <!-- End Header -->
-  <nav id="sidebar">
-      <ul class="list-unstyled" style="margin-top: -25px"> <!-- style="margin-top: -18px"> -->
-          <li>
-              <a href="/"><span class="icon"><i class="fas fa-home"></i></span>Home</a>
-          </li>
-          <li>
-              <a href="/page_publications"><span class="icon"><i class="fas fa-book"></i></span>Publications</a>
-          </li>
-          <li>
-              <a href="/page_communication"><span class="icon"><i class="fas fa-microphone"></i></span>Communication</a>
-          </li>
-          <li>
-              <a href="/page_teaching"><span class="icon"><i class="fas fa-university"></i></span>Teaching</a>
-          </li>
-          <li>
-              <a href="/page_side_projects"><span class="icon"><i class="fas fa-flask"></i></span>Side projects</a>
-          </li>
-          <li>
-              <a href="/page_biography"><span class="icon"><i class="fas fa-info-circle"></i></span>Biography</a>
-          </li>
-          <!--
-          <li>
-              <a href="#subMenuPub"  data-toggle="collapse" aria-expanded="false" class="dropdown-toggle collapsed"><span class="icon"><i class="fas fa-folder"></i></span>Other</a>
-              <ul class="collapse list-unstyled" id="subMenuPub"  style="margin-bottom: 10px">
-                  <li><a href="/page_teaching"><span class="icon"><i class="fas fa-university"></i></span>Teaching</a></li>
-                  <li><a href="/page_ressources"><span class="icon"><i class="fas fa-folder"></i></span>Resources</a></li>
-                  <li><a href="/page_news"><span class="icon"><i class="fas fa-newspaper"></i></span>All news</a></li>
-              </ul>
-          </li>
-          -->
-      </ul>
-  </nav>
+
+    <nav id="sidebar">
+        <ul class="list-unstyled">
+            <li>
+                <a href="/"><span class="icon"><i class="fas fa-home"></i></span>Home</a>
+            </li>
+            <li>
+                <a href="/page_publications"><span class="icon"><i class="fas fa-book"></i></span>Publications</a>
+            </li>
+            <li>
+                <a href="/page_communication"><span class="icon"><i class="fas fa-microphone"></i></span>Communication</a>
+            </li>
+            <li>
+                <a href="/page_teaching"><span class="icon"><i class="fas fa-university"></i></span>Teaching</a>
+            </li>
+            <li>
+                <a href="/page_side_projects"><span class="icon"><i class="fas fa-flask"></i></span>Side projects</a>
+            </li>
+            <li>
+                <a href="/page_biography"><span class="icon"><i class="fas fa-info-circle"></i></span>Biography</a>
+            </li>
+            <!--
+            <li>
+                <a href="#subMenuPub"  data-toggle="collapse" aria-expanded="false" class="dropdown-toggle collapsed"><span class="icon"><i class="fas fa-folder"></i></span>Other</a>
+                <ul class="collapse list-unstyled" id="subMenuPub"  style="margin-bottom: 10px">
+                    <li><a href="/page_teaching"><span class="icon"><i class="fas fa-university"></i></span>Teaching</a></li>
+                    <li><a href="/page_ressources"><span class="icon"><i class="fas fa-folder"></i></span>Resources</a></li>
+                    <li><a href="/page_news"><span class="icon"><i class="fas fa-newspaper"></i></span>All news</a></li>
+                </ul>
+            </li>-->
+
+        </ul>
+    </nav>
 
 
     <div class="quote-title-container" style="font-family: 'Brush Script MT', cursive; font-size: 25px; color: #000000;">Random quote of the day</div>
@@ -86,6 +122,7 @@ layout: default
   </footer> <!-- End Footer -->
 </div>
 </aside> <!-- End Sidebar -->
+
 
 <div class="content-box clearfix">
   {{ content }}

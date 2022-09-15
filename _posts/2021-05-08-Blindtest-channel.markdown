@@ -10,7 +10,7 @@ year: 2021
 doi: 
 date: 2021-05-08
 description: # Add post description (optional)
-img: articles/covers/8_Blindtestchannel.rpng
+img: articles/covers/8_Blindtestchannel.png
 fig-caption: Automatically builds a guess-the-song game from input keywords, time range and world region, and uploads it on Youtube.
 tags: [sidework, youtube, blindtest, channel, music]
 ---
@@ -22,7 +22,7 @@ tags: [sidework, youtube, blindtest, channel, music]
 #### <center><u>Video example</u></center>
 <center>
 <div style="width: 100%; aspect-ratio: 16 / 9;">
-<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Yi30B8ho44g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/FsmzfKdgyjM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </center>
 
