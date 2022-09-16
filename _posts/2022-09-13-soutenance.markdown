@@ -43,6 +43,10 @@ La manuscrit de thèse est disponible <a href="{{ "/PhD-manuscript" | prepend: s
 
 <br>
 <p align="center">
+    <img src="/assets/img/articles/These/Mosaique.jpg" alt="drawing" width="100%"/>
+</p>
+<br>
+<p align="center">
     <img src="/assets/img/articles/These/Img_soutenance (5).jpg" alt="drawing" width="45%"/>
     <img src="/assets/img/articles/These/Img_soutenance (1).jpg" alt="drawing" width="45%"/>
 </p>
