@@ -28,7 +28,7 @@ La manuscrit de thèse est disponible <a href="{{ "/PhD-manuscript" | prepend: s
 ## <center><u>The talk</u></center>
 <center>
 <div style="width: 100%; aspect-ratio: 16 / 9;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ViuRPD131mo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/ViuRPD131mo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 </center>
 
 
