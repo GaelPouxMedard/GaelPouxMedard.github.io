@@ -17,4 +17,6 @@ tags: [lecture, teaching, lesson]
 
 Lecture given to M1 students.
 
+<a href="/assets/img/articles/Cours/Python">Supports</a>
+
 Advanced coding lectures on Python and its various libraries.

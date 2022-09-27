@@ -17,5 +17,7 @@ tags: [lecture, teaching, lesson]
 
 Lecture given to L3 students.
 
+<a href="/assets/img/articles/Cours/IA">Supports</a>
+
 Introduction to inference-based and rule-systems coding using <a href='https://en.wikipedia.org/wiki/CLIPS'>CLIPS</a>. 
 CLIPS is a public domain software tool for building expert systems.

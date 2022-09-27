@@ -17,6 +17,8 @@ tags: [lecture, teaching, lesson]
 
 Cours dispensé en L1.
 
+<a href="/assets/img/articles/Cours/TIC">Supports de TD</a>
+
 ### De quoi s’agit-il ?
 Les TIC désignent les technologies de l'information et de la communication.
 Considéré comme un enseignement transversal, il est organisé et géré par l’Institut
