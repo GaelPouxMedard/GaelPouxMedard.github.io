@@ -8,24 +8,22 @@ fig-caption: # Add figcaption (optional)
 tags: [Gaël, Poux, Médard]
 ---
 
-Gaël Poux-Médard (Paris, 1996) obtained a literary baccalaureate in 2014 in Strasbourg (France), 
+I (Gaël Poux-Médard, Paris, 1996) obtained a literary baccalaureate in 2014 in Strasbourg (France), 
 and immediately switched to learning 
-physics at the **University Lyon 1** (France). After finishing his physics bachelor in 2017, he 
-integrated the Ecole Normale Supérieure or **ENS de Lyon**. During his M.Sc degree "Physics of complex systems", 
-he completed two internships in machine learning: in **SEES:lab, Università Rovira i Virgilli** (Tarragona, Spain) 
+physics at the **University Lyon 1** (France). After finishing my physics bachelor in 2017, I 
+integrated the Ecole Normale Supérieure or **ENS de Lyon**. During my M.Sc degree "Physics of complex systems", 
+I completed two internships in machine learning: in **SEES:lab, Università Rovira i Virgilli** (Tarragona, Spain) 
 for 3 months, and at the Istituto dei Sistemi Complessi or **CNR-ISC** (Rome, Italy) for 6 months. 
-Both internships eventually led to publish in great journals. 
-In parallel, he obtained a M.Sc degree in Digital Humanities at the ENS of Lyon. 
-Both M.Sc degrees were obtained in 2019. Finally, he defended on September 2022 a PhD thesis he started in October 2019 
+In parallel, I obtained a M.Sc degree in Digital Humanities at the ENS of Lyon. 
+Both M.Sc degrees were obtained in 2019. Finally, I defended on September 2022 a PhD thesis I started in October 2019 
 at the **Université de Lyon** (Université Lumière Lyon II).
 
 Writing this short resume, I hope I managed to emphasise two of my most defining traits: 
 flexibility and curiosity. I switched from a literary baccalaureate to a physics B.Sc 
-in order to explore natural sciences, because I was interested in it. It took me one 
-month to catch up with a 2 years program, and to finish in the top 5% of my university every year.
+in order to explore natural sciences.
 I did a similar leap when I started applied mathematics and computer science, first at the ENS, 
 then within a PhD. This transition implied to learn about a whole new field I had 
-little few explored before, and led to international publications within the following year.
+little explored before, and led to international publications within the following year.
 Finally, I passed a Digital Humanities degree. I always kept a strong interest in social sciences; 
 this degree helps me to broaden my horizon of computational social sciences applications.
 My motivation has not changed since, and is about exploring how mathematical sciences 
