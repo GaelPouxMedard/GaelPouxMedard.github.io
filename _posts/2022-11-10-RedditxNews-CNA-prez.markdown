@@ -1,8 +1,8 @@
 ﻿---
 layout: post
-type: article
-support: conference
-link: 
+type: communication
+support: powerpoint
+link: https://arxiv.org/abs/2209.07816
 title: Properties of Reddit News Topical Interactions
 authors: <b>G. Poux-Médard</b>, J. Velcin, S. Loudcher
 journal: Complex Networks and their Applications
