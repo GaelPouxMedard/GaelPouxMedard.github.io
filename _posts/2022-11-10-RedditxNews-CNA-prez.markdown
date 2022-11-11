@@ -26,6 +26,7 @@ mechanisms. After conducting an in-depth case study on 100,000 news headline fro
 we retrieve state-of-the-art conclusions about interactions and conclude that they play 
 a minor role in this dataset.
 
+<br>
 
 ## <center><u>Poster</u></center>
 <center>
@@ -35,8 +36,14 @@ a minor role in this dataset.
 </object>
 </center>
 
+<br>
 
 <p align="center">
-    <img src="/assets/img/articles/MPDHP/Photo_poster.jpg" alt="drawing" width="70%"/>
+    <img src="/assets/img/articles/MPDHP/Photo_poster.jpg" alt="drawing" width="45%"/>
+</p>
+
+<br>
+
+<p align="center">
     <img src="/assets/img/articles/MPDHP/Salle.jpg" alt="drawing" width="100%"/>
 </p>
