@@ -7,7 +7,7 @@ title: Serialized Interacting Mixed Membership Stochastic Block Model
 authors: <b>G. Poux-Médard</b>, J. Velcin, S. Loudcher
 journal: ICDM
 year: 2022
-doi: 
+doi: 10.1109/ICDM54844.2022.00145
 date: 2022-09-01
 description: # Add post description (optional)
 img: articles/covers/24_SIMSBM.jpg
