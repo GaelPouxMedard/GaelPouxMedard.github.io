@@ -7,7 +7,7 @@ title: Properties of Reddit News Topical Interactions
 authors: <b>G. Poux-Médard</b>, J. Velcin, S. Loudcher
 journal: Complex Networks and their Applications
 year: 2022
-doi: 
+doi: 10.1007/978-3-031-21127-0_2
 date: 2022-11-10
 description: # Add post description (optional)
 img: articles/MPDHP/Photo_poster.jpg
