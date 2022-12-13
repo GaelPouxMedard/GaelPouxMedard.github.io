@@ -25,6 +25,11 @@ layout: main
       <p><a href="{{page.link}}">{{page.title}}</a><br>{{page.authors}}, <i>{{page.journal}}</i>, {{page.year}}<br><i>DOI: {{page.doi}}</i></p>
       <div align="center"><a href="https://plu.mx/plum/a/?doi={{page.doi}}" class="plumx-plum-print-popup plum-liberty-theme" data-hide-when-empty="false" data-popup="right"></a></div>
       {% endif %}
+      {% if page.type == 'communication' %}
+      <h5>Link to the paper:</h5>
+      <p><a href="{{page.link}}">{{page.title}}</a><br><i>DOI: {{page.doi}}</i></p>
+      <div align="center"><a href="https://plu.mx/plum/a/?doi={{page.doi}}" class="plumx-plum-print-popup plum-liberty-theme" data-hide-when-empty="false" data-popup="right"></a></div>
+      {% endif %}
 
       <div class="page-footer">
         <div class="page-share">
