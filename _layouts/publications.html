@@ -28,7 +28,10 @@ layout: main
         {% if post.type == 'article' %}
           {% if post.support == 'conference' %}
             <p>
-              <a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a><br>{{post.authors}}, <i>{{post.journal}}</i>, {{post.year}}<br><a href="http://doi.org/{{post.doi}}"><i>DOI: {{post.doi}}</i></a>
+              <a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a><br>{{post.authors}}, <i>{{post.journal}}</i>, {{post.year}}
+              {%if post.doi %}
+                <br><a href="http://doi.org/{{post.doi}}"><i>DOI: {{post.doi}}</i></a>
+              {% endif %}
             </p>
           {% endif %}
         {% endif %}

@@ -16,7 +16,7 @@ tags: [mmsbm, simsbm, interactions, archaeology]
 ---
 
 Communication présentée à l'occasion des 42è journées de l'
-<a href="https://afamassociation.fr/index.php/2021/11/26/xliie-journees-de-lassociation-francaise-darcheologie-merovingienne/">Association Francçaise d'Archéologie Mérovingienne</a> (AFAM).
+<a href="https://afamassociation.fr/index.php/2021/11/26/xliie-journees-de-lassociation-francaise-darcheologie-merovingienne/">Association Française d'Archéologie Mérovingienne</a> (AFAM).
 
 A l’ère de l’information, la création et la mise en commun de larges bases de connaissances s’esquisse 
 comme une nécessité pour la recherche en général, et archéologique en l'occurrence. 

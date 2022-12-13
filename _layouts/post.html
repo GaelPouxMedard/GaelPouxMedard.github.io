@@ -19,15 +19,20 @@ layout: main
         <h1 class="page-title">{{page.title}}</h1>
         <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
       </header>
+      {% if page.link %}
+      <p><a href="{{page.link}}">Link to the paper</a></p>
+      {% endif %}
       <p>{{content | markdownify}}</p>
       {% if page.type == 'article' %}
-      <h5>Link to the paper and reference:</h5>
-      <p><a href="{{page.link}}">{{page.title}}</a><br>{{page.authors}}, <i>{{page.journal}}</i>, {{page.year}}<br><i>DOI: {{page.doi}}</i></p>
-      <div align="center"><a href="https://plu.mx/plum/a/?doi={{page.doi}}" class="plumx-plum-print-popup plum-liberty-theme" data-hide-when-empty="false" data-popup="right"></a></div>
+      <h5>Reference:</h5>
+      <p><a href="{{page.link}}">{{page.title}}</a><br>{{page.authors}}, <i>{{page.journal}}</i>, {{page.year}}</p>
       {% endif %}
       {% if page.type == 'communication' %}
       <h5>Link to the paper:</h5>
-      <p><a href="{{page.link}}">{{page.title}}</a><br><i>DOI: {{page.doi}}</i></p>
+      <p><a href="{{page.link}}">{{page.title}}</a></p>
+      {% endif %}
+      {% if page.doi %}
+      <p><i>DOI: <a href="http://doi.org/{{page.doi}}">{{page.doi}}</a></i></p>
       <div align="center"><a href="https://plu.mx/plum/a/?doi={{page.doi}}" class="plumx-plum-print-popup plum-liberty-theme" data-hide-when-empty="false" data-popup="right"></a></div>
       {% endif %}
 
