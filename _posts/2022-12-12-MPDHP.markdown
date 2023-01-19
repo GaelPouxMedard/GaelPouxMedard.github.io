@@ -6,7 +6,7 @@ link: https://arxiv.org/abs/2212.05995
 title: Multivariate Powered Dirichlet-Hawkes Process
 authors: <b>G. Poux-Médard</b>, J. Velcin, S. Loudcher
 journal: ECIR
-year: 2022
+year: 2023
 doi: 
 date: 2022-12-12
 description: # Add post description (optional)
