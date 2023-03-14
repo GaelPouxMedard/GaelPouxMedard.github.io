@@ -26,5 +26,5 @@ continuous-time setting along with said topics. It is unsupervised; it considers
 stream of triplets shaped as (time of publication, information's content, spreading 
 entity) as input data. Online inference is conducted using a sequential Monte-Carlo algorithm 
 that scales linearly with the size of the dataset. Our approach yields consequent improvements 
-over existing baselines on both cluster recovery and subnetworks inference tasks.
+over existing baselines on both cluster recovery and subnetworks inference tasks. 
 
