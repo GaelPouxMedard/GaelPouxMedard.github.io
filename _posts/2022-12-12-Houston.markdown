@@ -7,7 +7,7 @@ title: Dirichlet-Survival Process - Scalable Inference of Topic-Dependent Diffus
 authors: <b>G. Poux-Médard</b>, J. Velcin, S. Loudcher
 journal: ECIR
 year: 2023
-doi: 
+doi: 10.1007/978-3-031-28238-6_47
 date: 2022-12-12
 description: # Add post description (optional)
 img: articles/covers/27_Houston.jpg
