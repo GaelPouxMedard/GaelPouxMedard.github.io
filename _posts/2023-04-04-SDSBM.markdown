@@ -7,7 +7,7 @@ title: Dynamic Mixed Membership Stochastic Block Model for Weighted Labeled Netw
 authors: <b>G. Poux-Médard</b>, J. Velcin, S. Loudcher
 journal: SIGIR
 year: 2023
-doi: 
+doi: 10.1145/3539618.3591675
 date: 2023-04-04
 description: # Add post description (optional)
 img: articles/covers/31_SDSBM.jpg
