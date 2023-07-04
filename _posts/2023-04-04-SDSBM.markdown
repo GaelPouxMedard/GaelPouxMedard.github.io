@@ -23,7 +23,7 @@ are either unlabeled or assumed to have a single membership structure.
 On the other hand, a new family of Mixed Membership Stochastic Block Models (MMSBM) 
 allows to model static labeled networks under the assumption of mixed-membership clustering. 
 In this work, we propose to extend this later class of models to infer dynamic labeled networks under 
-a mixed membership assumption. 
+a mixed membership assumption.
 
 Our approach takes the form of a temporal prior on the model's parameters. 
 It relies on the single assumption that dynamics are not abrupt. We show that our method significantly 
