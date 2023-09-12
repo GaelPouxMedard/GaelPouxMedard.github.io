@@ -44,5 +44,5 @@ datasets are a major obstacle to the introduction of machine learning methods.
 ## <center><u>The talk</u></center>
 <center>
 <div style="width: 100%; aspect-ratio: 16 / 9;">
-<iframe width="100%" height="100%" src="https://www.youtube.com/watch?v=-PMzJebIQCw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/-PMzJebIQCw" title="Simple Dynamic MMSBM (SIGIR 2023)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </center>
