@@ -3,7 +3,7 @@ layout: post
 type: communication
 support: powerpoint
 link: 
-title: Defense - Interactions in Information Spread
+title: PhD defense - Interactions in Information Spread
 authors: <b>G. Poux-Médard</b>
 journal: PhD manuscript
 year: 2022
