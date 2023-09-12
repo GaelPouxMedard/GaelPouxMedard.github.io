@@ -1,6 +1,6 @@
 ---
 layout: post
-type: PhD
+type: communication
 support: powerpoint
 link: 
 title: Defense - Interactions in Information Spread
