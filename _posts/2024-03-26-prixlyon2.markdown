@@ -15,7 +15,7 @@ fig-caption:
 tags: [award, prix, phd, university, lyon 2]
 ---
 
-Accessit du prix de thèse de l'Université Lumière Lyon 2 - <a href="{{ "/PhD-manuscript" | prepend: site.url }}">Lien vers les résultats</a>.
+Accessit du prix de thèse de l'Université Lumière Lyon 2 - <a href="{{ "https://www.univ-lyon2.fr/universite/bourses-prix-et-distinctions/prixdethese2023"}}">Lien vers les résultats</a>.
 
 Manuscrit de thèse disponible <a href="{{ "/PhD-manuscript" | prepend: site.url }}">ici</a>.
 
