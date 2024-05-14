@@ -1,9 +1,9 @@
 ---
 layout: post
-type: communication
+type: Award
 support: powerpoint
 link: 
-title: Award - Prix de thèse (accessit) de l'Université Lumière Lyon 2
+title: Prix de thèse (accessit) de l'Université Lumière Lyon 2
 authors: <b>G. Poux-Médard</b>
 journal: Prix de thèse
 year: 2024
