@@ -21,7 +21,7 @@ tags: [clustering, temporal bayesian prior, powered dirichlet process, hawkes pr
 ---
 
 This publication is an extended version of a previously published article: 
-<a href="{{ "/PDHP" | prepend: site.url }}">Powered Dirichlet-Hawkes Process article</a> (ICDM 2021)
+<a href="{{ "https://gaelpouxmedard.github.io/PDHP/" }}">Powered Dirichlet-Hawkes Process article</a> (ICDM 2021)
 
 The textual content of a document and its publication date are intertwined. 
 For example, the publication of a news article on a topic is influenced by 

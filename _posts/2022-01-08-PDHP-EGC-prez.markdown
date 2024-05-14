@@ -16,7 +16,7 @@ tags: [clustering, temporal bayesian prior, powered dirichlet process, hawkes pr
 ---
 
 This work is a translation of the
-<a href="{{ "/PDHP" | prepend: site.url }}">Powered Dirichlet-Hawkes Process article</a> (ICDM 2021)
+<a href="{{ "https://gaelpouxmedard.github.io/PDHP/" }}">Powered Dirichlet-Hawkes Process article</a> (ICDM 2021)
 for the EGC conference.
 
 Le contenu textuel d’un document et sa date de publication sont corrélés. Par exemple,

@@ -22,7 +22,7 @@ document, clustering, recommender systems]
 ---
 
 Soutenance de thèse à l'Université de Lyon, au Palais Hirsch.
-La manuscrit de thèse est disponible <a href="{{ "/PhD-manuscript" | prepend: site.url }}">ici</a>.
+La manuscrit de thèse est disponible <a href="{{ "https://gaelpouxmedard.github.io/PhD-manuscript/" }}">ici</a>.
 
 <br>
 ## <center><u>The talk</u></center>
