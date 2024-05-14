@@ -3,7 +3,7 @@ layout: post
 type: communication
 support: powerpoint
 link: 
-title: Award - Prix de thèse de l'Université Lumière Lyon 2
+title: Award - Prix de thèse (accessit) de l'Université Lumière Lyon 2
 authors: <b>G. Poux-Médard</b>
 journal: Prix de thèse
 year: 2024
@@ -15,11 +15,11 @@ fig-caption:
 tags: [award, prix, phd, university, lyon 2]
 ---
 
-Prix de thèse de l'Université Lumière Lyon 2 - <a href="{{ "/PhD-manuscript" | prepend: site.url }}">Lien vers les résultats</a>.
+Accessit du prix de thèse de l'Université Lumière Lyon 2 - <a href="{{ "/PhD-manuscript" | prepend: site.url }}">Lien vers les résultats</a>.
 
 Manuscrit de thèse disponible <a href="{{ "/PhD-manuscript" | prepend: site.url }}">ici</a>.
 
-# Texte
+# Présentation
 
 ## De la physique aux sciences sociales : les origines de sa thèse
 G. P.-M. : « Né à Paris et ayant grandi en Alsace, je suis arrivé à Lyon au lendemain de l'obtention d'un bac 
