@@ -1,0 +1,107 @@
+---
+layout: post
+type: communication
+support: powerpoint
+link: 
+title: Award - Prix de thèse de l'Université Lumière Lyon 2
+authors: <b>G. Poux-Médard</b>
+journal: Prix de thèse
+year: 2024
+doi: 
+date: 2024-03-26
+description:  # Add post description (optional)
+img: articles/covers/35_prixlyon2.png # Add image post (optional)
+fig-caption: 
+tags: [award, prix, phd, university, lyon 2]
+---
+
+Prix de thèse de l'Université Lumière Lyon 2 - <a href="{{ "/PhD-manuscript" | prepend: site.url }}">Lien vers les résultats</a>.
+
+Manuscrit de thèse disponible <a href="{{ "/PhD-manuscript" | prepend: site.url }}">ici</a>.
+
+# Texte
+
+## De la physique aux sciences sociales : les origines de sa thèse
+G. P.-M. : « Né à Paris et ayant grandi en Alsace, je suis arrivé à Lyon au lendemain de l'obtention d'un bac 
+littéraire pour débuter mes études de... physique, à l'Université Claude Bernard Lyon 1.
+
+J'ai opté pour cette filière un peu par dépit, suite au refus de deux classes prépa littéraires, 
+mais aussi par curiosité. Je me suis passionné pour cette matière que je découvrais. 
+J'y ai tant pris goût que, trois années plus tard, j'entrais à l'École Normale Supérieure 
+de Lyon pour y continuer la physique en master Sciences de la matière. Une année passe, 
+j'aime toujours autant ma matière, mais certaines réalités commencent à se faire plus tangibles ; 
+après les études commence à poindre le monde du travail. Et là, une terrible prise de conscience : 
+je ne veux pas faire de recherche en physique, étant manifestement plus sensible à son étude 
+qu'à sa découverte. Il est temps de changer d'air une nouvelle fois.
+
+Un peu paniqué, je découvre l'existence des sciences sociales computationnelles au détour d'une 
+lecture (Fondation d'Asimov), puis lors d'un stage à Tarragone. 
+Je décide de me lancer sur cette nouvelle route. Une nouvelle année passe, et je confirme 
+mon goût pour cette discipline et ses promesses lors d'un stage à Rome et d'un master en 
+humanités numériques en parallèle de ma formation de physicien, master au sein duquel 
+je rencontrerai mes futurs directeurs de thèse.
+
+Me voici enfin arrivé à l'Université Lumière Lyon 2, pour y débuter un doctorat sur les interactions 
+entre informations dans leur diffusion sur les réseaux sociaux. Un projet à cheval entre mathématiques, 
+sciences sociales et informatique. Un cocktail passionnant, d'une part, mais aussi novateur dans une
+certaine mesure. J'entame mon doctorat comme une première étape vers un objectif plus global : 
+participer à l'introduction des méthodes mathématiques, statistiques et informatiques dans la 
+résolution de problèmes traditionnellement réservés au SHS. »
+
+## Une thèse ne période de pandémie
+
+G. P.-M. : « La thèse débute donc en octobre 2019. Les premiers mois se passent bien, 
+mes directeurs de recherche, Julien Velcin et Sabine Loudcher, m'aident à définir les 
+contours de ma problématique, et moi de leur proposer des méthodes permettant d'y répondre. 
+Il s'agit de récupérer de grosses masses de données apparemment informes (quelques millions de tweets, par exemple), 
+et d'essayer d'en deviner les mécanismes cachés (qui a publié quoi, quand, pourquoi). 
+Mon travail se concentre sur un de ces mécanismes en particulier, l'interaction entre 
+informations. Lorsqu'une personne publie un tweet X, l'a-t-elle fait en usant de son 
+libre arbitre, ou bien parce qu'elle a été influencée, à son insu ou non, par un tweet 
+Y publié quelques instants T plus tôt dans son feed ?
+
+Les connaissances acquises lors de mes stages facilitent le démarrage du projet :
+j'implémente, adapte et teste sur ma problématique les modèles mathématiques que je 
+maîtrise déjà. J'ai trouvé un doctorat, le smic qui va avec, sur un sujet qui 
+m'intéresse, avec un objectif à long terme, dans un cadre libre et agréable. Je me dis que 
+tout va pour le mieux dans cette belle vie lorsque j'entends un ami me demander 
+"il paraît qu'il y a un genre de grippe en Chine, t'en as entendu parler ?".
+
+Trois mois plus tard, le cadre a radicalement changé ; je travaille depuis mon appartement, 
+une routine un peu plus solitaire, et un peu moins saine, s'installe. Mais j'ai cette chance 
+de ne pas être entravé outre mesure dans mes recherches. Mon travail consiste à écrire des
+modèles mathématiques sur un bout de papier, les coder sur mon ordinateur personnel, les lancer 
+à distance sur des serveurs, récupérer des résultats, puis enfin les analyser.
+Mais mon expérience de thèse se trouve néanmoins amputée de quelque chose. Lorsque le 
+monde se rouvre, les contacts sont plus difficiles, les restrictions, couvre-feu et autres 
+confinements s'enchaînent. À côté de cela, il est facile de s'habituer à travailler seul, 
+depuis chez soi, et je ne remets finalement presque plus les pieds au laboratoire jusqu'à 
+la soutenance. Des visios, des verres avec mes directeurs, et des conférences sont devenues 
+ma nouvelle routine professionnelle. En contrepartie, mes recherches avancent vite, et il 
+sera bientôt temps de tout compiler dans le manuscrit final !
+
+Une nouvelle phase s'enclenche, la rédaction, relativement rapide et indolore, 
+et me voilà prêt à soutenir. En septembre 2022, je deviens docteur, armé pour 
+travailler à mon véritable objectif : introduire les méthodes mathématiques et 
+statistiques dans les SHS. »
+
+## Et après ?
+G. P.-M. : « Je retire finalement du doctorat une expérience bien plus technique que sociale. 
+Les rencontres que j'ai pu y faire se sont retrouvées limitées par les événements dans un premier temps, 
+par l'habitude dans un second. Du point de vue des connaissances, cela dit, j'ai passé 
+trois années à découvrir tous les aspects d'un champ qui m'était presque inconnu lors de 
+mes débuts en thèse. Trois ans, ce n'est pas assez pour tout savoir, mais c'est assez pour 
+apprendre à apprécier la légitimité que confère un doctorat. Sans l'avoir fait disparaître, 
+le doctorat m'a appris à gérer un mal courant du doctorant, le syndrome de l'imposteur 
+(le revers de médaille de qui s'amuse constamment à changer de parcours, entre autres). 
+Une thèse riche en enseignements, et en développements personnels, donc. Il y a bien là de 
+quoi prendre un peu de temps pour se poser, prendre du recul, voire en profiter pour mener
+des projets toujours reportés à l'année suivante, à l'année après les études. Un voyage, 
+pourquoi pas. Ou un livre..?
+
+J'ai découvert ce concours lors de ma propre cérémonie de remise des diplômes. Peu de temps 
+après, mon directeur de recherches m'a informé penser que ce serait une bonne idée d'envoyer 
+ma thèse pour examen. Je me suis exécuté, sans grands espoirs (le syndrome de l'imposteur, il 
+faut suivre !). J'ai donc été très agréablement surpris de me voir décerner cet accessit. 
+Ce concours représente une belle consécration de trois années de travail, une validation par des 
+chercheurs établis, et le boost de confiance qui va avec ! »
