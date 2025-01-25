@@ -1,0 +1,111 @@
+---
+layout: post
+type: Award
+support: powerpoint
+link: 
+title: Prix de thèse l'association EGC
+authors: <b>G. Poux-Médard</b>
+journal: Prix de thèse
+year: 2025
+doi: 
+date: 2025-01-27
+description:  # Add post description (optional)
+img: articles/covers/36_prixEGC.png # Add image post (optional)
+fig-caption: 
+tags: [award, prix, phd, egc]
+---
+
+Prix de thèse de l'association EGC (Extraction et Gestion des Connaissances) - <a href="{{ "https://www.egc.asso.fr/category/manifestations/prix-egc"}}">Lien vers les résultats</a>.
+
+Manuscrit de thèse disponible <a href="{{ "https://gaelpouxmedard.github.io/PhD-manuscript/" }}">ici</a>.
+
+Résumé de la thèse :
+Il y a deux décennies de cela, nous sommes entrés dans l'ère de l'information. 
+Acteurs indiscutables de cette transition, les réseaux sociaux ont considérablement 
+modifié la manière dont les individus s'informent et interagissent avec les contenus 
+qu'ils découvrent. Les flux gargantuesques de données qui en résultent nécessitent 
+de nouvelles stratégies de récupération de l'information. Plutôt que de référencer 
+individuellement chaque fragment d'information, comme le ferait une bibliothèque, 
+une approche plus pertinente consiste à extraire les idées générales convoyées par 
+ces flux d'informations, sans se focaliser sur le détail. Or, discerner des tendances 
+au sein de telles masses de données requiert une compréhension fine des mécanismes de 
+diffusion sous-jacents, qui peuvent être influencés par un grand nombre de facteurs.
+
+Dans cette thèse, je m’intéresse en particulier à l’un de ces facteurs : l’interaction 
+entre informations. On dit qu’une interaction a lieu lorsque la réaction d'une personne 
+confrontée à une information (tweet, mème, post) est influencée par son exposition 
+antérieure à d'autres informations. Bien que la modélisation de la diffusion d'informations 
+sur les réseaux sociaux soit un domaine de recherche actif depuis de nombreuses années, 
+la modélisation des interactions entre informations reste un aspect inexploré de cette 
+littérature. Pourtant, ces considérations pourraient se révéler cruciales pour la 
+compréhension des dynamiques de diffusion et des effets de contagion sur les réseaux 
+sociaux, et des problématiques en découlant directement : mécanismes d’influence, 
+désinformation en ligne, exploitation et prévention de nos propres biais cognitifs. 
+Dans ce travail de thèse, je développe donc un éventail de nouvelles méthodes d'apprentissage 
+automatique, permettant de dévoiler, d’interpréter, et de visualiser cet aspect particulier 
+des mécanismes de diffusion de l'information en ligne.
+
+En premier lieu, il est naturel de questionner l’existence de telles interactions. 
+Sont-elles importantes, pertinentes, ou tout simplement présentes ? Afin d’examiner 
+la fréquence et la force de telles interactions entre fragments d'information, je me 
+suis basé sur de récentes avancées en Stochastic Block Modelling. Les informations 
+sont représentées par des nœuds, et leurs interactions par des liens multinomiaux. 
+Il s’agit de grouper ensemble les paires d’informations qui présentent des relations 
+d’interaction « microscopiques » similaires, et de reconstruire le réseau d’interactions 
+« macroscopique » entre ces groupes. Grâce à cette stratégie, la présupposée majorité 
+d’informations qui n’interagissent pas du tout peut faire partie d’un unique groupe. 
+Cela permet de discerner plus facilement d’autres groupes qui, eux, interagissent. 
+J’ai ainsi exploré le rôle de ces interactions dans la génération d'informations sur 
+des corpus provenant de plusieurs plateformes sociales en ligne — Twitter, Reddit et 
+Spotify, comprenant environ 150 000 observations chacun (RecSys 2021). Cette première 
+étude a révélé que les interactions significatives sont peu fréquentes sur 
+ces réseaux sociaux, mais que les prendre en compte permet néanmoins une meilleure 
+description des mécanismes de diffusion.
+
+
+Cependant, cette méthode est biaisée en ce qu'elle ne considère pas le temps qui 
+s'écoule ; or un tweet ne reste généralement pas plus de quelques minutes à l’esprit. 
+Il est donc possible que la rareté de ces interactions, établie à l’aide des modèles 
+stochastiques en bloc, soit en vérité due à leur brièveté. Il s’agit donc d’établir dans 
+quelle mesure la probabilité qu’un utilisateur réagisse (par exemple, un retweet) face à 
+une information (un tweet) est modifiée par l’exposition antérieure à d’autres informations 
+(d'autres tweets). Un modèle plus tard, les expériences, menées sur (notamment) un sous-réseau 
+temporel de Twitter comptant 1 milliard d’observations, montrent que considérer des interactions 
+temporelles permet une description plus fine des processus de diffusion (ECML-PKDD 2021). 
+Typiquement, sur Twitter, la durée d’une interaction s’avère s’étendre sur trois tweets, tout au 
+plus. Généralement, sur les réseaux étudiés, les interactions sont brèves : leur intensité 
+temporelle décroît exponentiellement.
+
+
+À ce stade, il est établi que les interactions significatives sont brèves et rares, mais néanmoins 
+impactantes. Il faut donc élaborer un modèle considérant des interactions rares (en les regroupant) 
+et brèves (considérant leur dynamique), tout en étant capable de traiter efficacement les 
+gargantuesques flux de données évoqués en introduction. Mes recherches m’ont conduit à étudier des 
+connexions peu explorées entre les processus de Dirichlet, fréquents dans les SBM, et les processus 
+du point, fréquents dans les modèles dynamiques. Ce travail a abouti à la découverte d’une classe 
+plus générale de processus, permettant à la fois le regroupement de nœuds et une modélisation dynamique 
+de leurs liens : les processus de Dirichlet-Point (ICDM 2021, EGC 2022). J’ai appliqué ces trouvailles 
+à un jeu de données réel à grande échelle : l’intégralité des posts des subreddits de news sur l’année 2019 
+(CNA 2022). L’application des processus Dirichlet-Point a permis de conclure que les interactions 
+jouent un rôle mineur dans ce corpus particulier. L'analyse des réseaux temporels d’interaction 
+topicaux a néanmoins permis de quantifier cette absence en calculant la moyenne pondérée des liens 
+inférés entre ces groupes. Ce résultat semble sensé (a posteriori), car ces publications émanent 
+surtout d'événements externes, plutôt que de phénomènes de réplication et d’influence.
+
+
+D'un point de vue plus global, ces travaux aboutissent à une collection de modèles flexibles en termes de 
+champs d'applications, d'une part, et à une réflexion sur des concepts au cœur des méthodes d'apprentissage 
+automatique actuelles, d'autre part. Qu’il s’agisse de modèles stochastiques en blocs, de modélisation 
+dynamique, ou de processus de Dirichlet-Point, les applications potentielles de modèles développés au cours 
+de ce travail s’étendent bien au-delà de la seule étude des interactions dans les processus de diffusion. Car 
+comme cela arrive souvent en recherche, des trouvailles inattendues peuvent émerger de questions à priori 
+sans rapport. Citons par exemple les innombrables systèmes à présent susceptibles d’être modélisés par des 
+hypergraphes multinomiaux (ICDM 2022) et dynamiques (SIGIR 2023), par des réseaux de diffusion temporels 
+autostimulés (ECIR 2023a, ECIR 2023b), ou encore par des clusters dont la population croitrait sur/sub-linéairement 
+(ECML-PKDD 2023), 
+qui ont tous fleuri d’une question simple : existe-t-il des interactions entre informations 
+dans les processus de diffusion en ligne ? Plutôt qu’une réponse unique, irrévocable, et nécessairement 
+trop spécifique, ce travail de thèse s'est attaché à développer des outils afin de statuer sur le rôle des 
+interactions au cas par cas. Mais, plus important à mon sens, cette recherche nous a menés à questionner 
+et à revisiter des fondements de l’apprentissage automatique, et nous invite à reconsidérer sous un nouvel 
+angle la plupart des modèles élaborés au cours des deux dernières décennies.

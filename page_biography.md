@@ -7,7 +7,7 @@ fig-caption: # Add figcaption (optional)
 tags: [Gaël, Poux, Médard]
 ---
 
-I (Gaël Poux-Médard, Paris, 1996) obtained a literary baccalaureate in 2014 in Strasbourg (France), 
+I (Gaël Poux-Médard, 1996) obtained a literary baccalaureate in 2014 in Strasbourg (France), 
 and immediately switched to learning 
 physics at the **University Lyon 1** (France). After finishing my physics bachelor in 2017, I 
 integrated the Ecole Normale Supérieure or **ENS de Lyon**. During my M.Sc degree "Physics of complex systems", 
@@ -16,8 +16,10 @@ for 3 months, and at the Istituto dei Sistemi Complessi or **CNR-ISC** (Rome, It
 In parallel, I obtained a M.Sc degree in Digital Humanities at the ENS of Lyon. 
 Both M.Sc degrees were obtained in 2019. Finally, I defended on September 2022 a PhD thesis I started in October 2019 
 at the **Université de Lyon** (Université Lumière Lyon II).
+I am currently as a post-doctoral scientist jointly employed by the World Health Organization (**WHO**) Institute of 
+Research Against Cancer (**IARC**) and by the University Lyon 1 (**UCBL**).
 
-Writing this short resume, I hope I managed to emphasise two of my most defining traits: 
+[//]: # (Writing this short resume, I hope I managed to emphasise two of my most defining traits: 
 flexibility and curiosity. I switched from a literary baccalaureate to a physics B.Sc 
 in order to explore natural sciences.
 I did a similar leap when I started applied mathematics and computer science, first at the ENS, 
@@ -27,7 +29,10 @@ Finally, I passed a Digital Humanities degree. I always kept a strong interest i
 this degree helps me to broaden my horizon of computational social sciences applications.
 My motivation has not changed since, and is about exploring how mathematical sciences 
 can help social sciences. The idea is to bridge the gap between researchers in the field and 
-the enormous amount of data they possess yet did not extensively explore.
+the enormous amount of data they possess yet did not extensively explore.)
+
+## Carreer
+-   **2025-2027** Post-doctoral scientist at WHO/IARC
 
 ## Studies
 -	**2022**: Ph.D in Computer Sciences at the Université de Lyon “Interactions in Information Spread” under the direction of J.Velcin and S.Loudcher.
