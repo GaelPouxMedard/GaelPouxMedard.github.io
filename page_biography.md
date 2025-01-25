@@ -19,17 +19,27 @@ at the **Université de Lyon** (Université Lumière Lyon II).
 I am currently as a post-doctoral scientist jointly employed by the World Health Organization (**WHO**) Institute of 
 Research Against Cancer (**IARC**) and by the University Lyon 1 (**UCBL**).
 
-[//]: # (Writing this short resume, I hope I managed to emphasise two of my most defining traits: 
-flexibility and curiosity. I switched from a literary baccalaureate to a physics B.Sc 
-in order to explore natural sciences.
-I did a similar leap when I started applied mathematics and computer science, first at the ENS, 
-then within a PhD. This transition implied to learn about a whole new field I had 
-little explored before, and led to international publications within the following year.
-Finally, I passed a Digital Humanities degree. I always kept a strong interest in social sciences; 
-this degree helps me to broaden my horizon of computational social sciences applications.
-My motivation has not changed since, and is about exploring how mathematical sciences 
-can help social sciences. The idea is to bridge the gap between researchers in the field and 
-the enormous amount of data they possess yet did not extensively explore.)
+[comment]: <> (Writing this short resume, I hope I managed to emphasise two of my most defining traits: )
+
+[comment]: <> (flexibility and curiosity. I switched from a literary baccalaureate to a physics B.Sc )
+
+[comment]: <> (in order to explore natural sciences.)
+
+[comment]: <> (I did a similar leap when I started applied mathematics and computer science, first at the ENS, )
+
+[comment]: <> (then within a PhD. This transition implied to learn about a whole new field I had )
+
+[comment]: <> (little explored before, and led to international publications within the following year.)
+
+[comment]: <> (Finally, I passed a Digital Humanities degree. I always kept a strong interest in social sciences; )
+
+[comment]: <> (this degree helps me to broaden my horizon of computational social sciences applications.)
+
+[comment]: <> (My motivation has not changed since, and is about exploring how mathematical sciences )
+
+[comment]: <> (can help social sciences. The idea is to bridge the gap between researchers in the field and )
+
+[comment]: <> (the enormous amount of data they possess yet did not extensively explore.)
 
 ## Carreer
 -   **2025-2027** Post-doctoral scientist at WHO/IARC
