@@ -49,7 +49,7 @@ Agency for Research against Cancer (**IARC**) and by the University Lyon 1 (**UC
 -	**2019**: M.Sc in Digital Humanities at the Ecole Normale Supérieure (ENS) of Lyon (15.16/20, rank 1/20)
 -	**2019**: M.Sc in Complex Systems at the Ecole Normale Supérieure (ENS) of Lyon (15.27/20, rank 4/12)
 -	**2017**: B.Sc in physics at the University Claude Bernard Lyon 1 (15.58/20, A rank)
--	**2014**: Literary baccalaureate at the Jean Mermoz high school, Saint-Louis (“Good” mention)
+-	**2014**: Literature baccalaureate at the Jean Mermoz high school, Saint-Louis
 
 ## Languages
 -	French (mother tongue)
