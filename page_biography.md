@@ -16,8 +16,8 @@ for 3 months, and at the Istituto dei Sistemi Complessi or **CNR-ISC** (Rome, It
 In parallel, I obtained a M.Sc degree in Digital Humanities at the ENS of Lyon. 
 Both M.Sc degrees were obtained in 2019. Finally, I defended on September 2022 a PhD thesis I started in October 2019 
 at the **Université de Lyon** (Université Lumière Lyon II).
-I am currently as a post-doctoral scientist jointly employed by the World Health Organization (**WHO**) Institute of 
-Research Against Cancer (**IARC**) and by the University Lyon 1 (**UCBL**).
+I am currently as a post-doctoral scientist jointly employed by the World Health Organization's (**WHO**) International 
+Agency for Research against Cancer (**IARC**) and by the University Lyon 1 (**UCBL**).
 
 [comment]: <> (Writing this short resume, I hope I managed to emphasise two of my most defining traits: )
 
