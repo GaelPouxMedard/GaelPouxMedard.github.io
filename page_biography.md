@@ -51,13 +51,13 @@ Agency for Research against Cancer (**IARC**) and by the University Lyon 1 (**UC
 -	**2017**: B.Sc in physics at the University Claude Bernard Lyon 1 (15.58/20, A rank)
 -	**2014**: Literature baccalaureate at the Jean Mermoz high school, Saint-Louis
 
-## Languages
--	French (mother tongue)
--	English (C2 level)
--	Italian (B2 level)
-
 ## Internships
 -	**2019**: Internship at La Sapienza – Istituto dei Sistemi Complessi (Roma) entitled “Study of the problem of optimal spreaders for the SIS model for epidemics”, supervised by C. CASTELLANO
 -	**2018**: Internship at the university Rovira I Virgili – SEES:Lab (Spain) as part of the project entitled “Statistical mechanics for modeling and prediction of human behavior”, supervised by M. SALES-PARDO
 -	**2017**: Internship at the Institut Lumière Matière (iLM) of Lyon entitled « Bubble nanofluidics », supervised by C. YBERT and O. BONHOMME
 -	**2011-2016**: Volunteer on the archeological excavation site of Puy-de-Corent, Auvergne.
+
+## Languages
+-	French (mother tongue)
+-	English (C2 level)
+-	Italian (B2 level)
