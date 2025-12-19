@@ -7,13 +7,16 @@ title: Identification de l'âge et du sexe des défunts à partir du mobilier fu
 authors: <b>G. Poux-Médard</b>, É. Schneider, F. Abert, H. Barrand-Emam, F. Chenal, T. Fischbach, A. Touzet
 journal: AFAM
 year: 2025
-doi: 
+doi: https://catalogue.frantiq.fr/bib/888046
 date: 2025-06-25
 description: # Add post description (optional)
 img: articles/covers/38-SIMSBM-AFAM.jpg
 fig-caption:
 tags: [mmsbm, simsbm, interactions, archaeology]
 ---
+
+
+<a href="https://catalogue.frantiq.fr/bib/888046">Link to the reference and the book</a>.
 
 Communication présentée à l'occasion des 42è journées de l'
 <a href="https://afamassociation.fr/index.php/2021/11/26/xliie-journees-de-lassociation-francaise-darcheologie-merovingienne/">Association Française d'Archéologie Mérovingienne</a> (AFAM).
