@@ -7,7 +7,7 @@ title: Identification de l'âge et du sexe des défunts à partir du mobilier fu
 authors: <b>G. Poux-Médard</b>, É. Schneider, F. Abert, H. Barrand-Emam, F. Chenal, T. Fischbach, A. Touzet
 journal: AFAM
 year: 2025
-doi: https://catalogue.frantiq.fr/bib/888046
+doi: 
 date: 2025-12-12
 description: # Add post description (optional)
 img: articles/covers/38-SIMSBM-AFAM.png
