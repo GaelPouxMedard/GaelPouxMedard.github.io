@@ -8,7 +8,7 @@ authors: <b>G. Poux-Médard</b>, É. Schneider, F. Abert, H. Barrand-Emam, F. Ch
 journal: AFAM
 year: 2025
 doi: https://catalogue.frantiq.fr/bib/888046
-date: 2025-06-25
+date: 2025-12-12
 description: # Add post description (optional)
 img: articles/covers/38-SIMSBM-AFAM.jpg
 fig-caption:
