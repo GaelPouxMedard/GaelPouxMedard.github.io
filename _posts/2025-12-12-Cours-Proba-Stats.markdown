@@ -3,7 +3,7 @@ layout: post
 type: lecture
 support: 
 link: 
-title: 1ère année ingénieur - Probability and statistics (32h)
+title: 1ère EC Lyon - Probability and statistics (32h)
 authors: 
 journal: Centrale Lyon
 year: 2025
