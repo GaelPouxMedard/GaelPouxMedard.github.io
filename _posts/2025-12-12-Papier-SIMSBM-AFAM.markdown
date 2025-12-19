@@ -10,7 +10,7 @@ year: 2025
 doi: https://catalogue.frantiq.fr/bib/888046
 date: 2025-12-12
 description: # Add post description (optional)
-img: articles/covers/38-SIMSBM-AFAM.jpg
+img: articles/covers/38-SIMSBM-AFAM.png
 fig-caption:
 tags: [mmsbm, simsbm, interactions, archaeology]
 ---
