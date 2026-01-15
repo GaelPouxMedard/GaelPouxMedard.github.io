@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 type: article
-support: conference
+support: journal
 link: /assets/img/articles/SIMSBM/Article-AFAM.pdf
 title: Identification de l'âge et du sexe des défunts à partir du mobilier funéraire mérovingien - une approche d'apprentissage automatique
 authors: <b>G. Poux-Médard</b>, É. Schneider, F. Abert, H. Barrand-Emam, F. Chenal, T. Fischbach, A. Touzet
