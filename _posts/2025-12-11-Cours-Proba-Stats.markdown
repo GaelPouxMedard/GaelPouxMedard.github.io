@@ -18,3 +18,4 @@ tags: [lecture, teaching, lesson]
 Lecture given to first year 
 engineering students in the Ecole Centrale de Lyon.
 
+
