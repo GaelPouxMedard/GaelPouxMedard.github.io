@@ -3,7 +3,7 @@ layout: post
 type: tutorial
 support:
 link:
-title: Modéliser l'interaction entre informations dans les processus de diffusion culturelle -- Mèmes et archéologie
+title: Modéliser l'interaction entre informations dans les processus de diffusion culturelle - Mèmes et archéologie
 authors: <b>G. Poux-Médard</b>
 journal: CAMS (EHESS, Paris)
 year: 2026
