@@ -4,7 +4,7 @@ type: communication
 support: 
 link: 
 title: Fête de la Science - BD MOBiL
-authors: Guillaume Padilla
+authors: G. Padilla
 journal: IARC (WHO), ICJ (UCBL)
 year: 2025
 doi: 
