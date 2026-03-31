@@ -33,6 +33,7 @@ Mais l'intérêt des méthodes développées dépasse le cadre des discours en l
 Or, qu’il s’agisse d’artefacts antiques ou de contenus numériques, les interactions entre informations peuvent être modélisées au moyen d’outils similaires. Cette présentation détaillera donc non seulement les méthodes développées pour l'étude de la diffusion d'information en ligne, au cœur de mon doctorat, mais aussi des pistes d'applications à la diffusion culturelle dans l'Antiquité, au centre d'un prochain projet au CAMS.
 
 <br>
+
 ## <center><u>The talk</u></center>
 <center>
 <div style="width: 100%; aspect-ratio: 16 / 9;">
